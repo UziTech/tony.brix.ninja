@@ -1,0 +1,28 @@
+application: nth-canyon-93713
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /images
+  static_dir: images
+
+- url: /about\.php
+  script: about.php
+
+- url: /resume\.php
+  script: resume.php
+
+- url: .*
+  script: index.php

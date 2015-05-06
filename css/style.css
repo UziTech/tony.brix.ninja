@@ -1,0 +1,212 @@
+x{
+  -moz-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+  -ms-user-select: all;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body{
+  display: none;
+  background: #57C;
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(top left, #57C 0%, #ABD 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(top left, #57C 0%, #ABD 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(top left, #57C 0%, #ABD 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #57C), color-stop(1, #ABD));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(top left, #57C 0%, #ABD 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to bottom right, #57C 0%, #ABD 100%);
+}
+.shortcut{
+  width: 60px;
+  height: 40px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 50px 14px 0px 14px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 10px;
+  font-family: sans-serif;
+  float: left;
+  position: absolute;
+}
+.shortcut .title{
+  width: 60px;
+}
+.mobile {
+  display: none;
+}
+#aboutcontent{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  line-height: 13px;
+  font-weight: 700;
+  overflow-x: hidden;
+  outline: none;
+  outline-style: none;
+  -moz-outline-style:none;
+  word-wrap: break-word;
+  white-space: pre;
+}
+#resumecontent{
+  background-color: white;
+  color: black;
+  font-family: monospace;
+  line-height: 13px;
+  overflow-x: hidden !important;
+  white-space: pre-wrap;
+}
+#emailcontent{
+  background-color: #f0f0ee;
+  overflow: hidden !important;
+  position: relative;
+}
+#emailcontent .overlay{
+  z-index: 100000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  -moz-opacity: 0.3;
+  -khtml-opacity: 0.3;
+  opacity: 0.3;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+}
+#emailinput{
+  padding-bottom: 2px
+}
+#emailinput .send_icon{
+  background: url(/images/to_icon.png) no-repeat bottom center;
+  width: 25px;
+  height: 12px;
+  display:-moz-inline-stack;
+  display: inline-block;
+}
+#emailinput .send_label{
+  font-size: 13px;
+  width: 35px;
+  display:-moz-inline-stack;
+  display: inline-block;
+  padding-right:  3px;
+}
+#emailinput .send_input{
+  width: 476px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  display:-moz-inline-stack;
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px;
+  cursor: text;
+}
+#emailsend{
+  background: #ccc url(/images/send_icon.png) no-repeat 1px center;
+  padding: 2px 2px 2px 19px;
+  margin: 1px;
+  float: right;
+  border: 1px solid #aaa;
+  color: #333;
+  cursor: pointer;
+}
+#minesweepercontent {
+  background-color: #fff;
+  overflow: hidden !important;
+}
+#minesweepercanvas{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  outline-style: none;
+  -moz-outline-style:none;
+}
+#portrait {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+#portrait img{
+  position: absolute;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  behavior: url(/css/PIE.htc);
+}
+#qrcode {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: -1;
+  text-align: center;
+}
+#qrcode img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  behavior: url(/css/PIE.htc);
+}
+#qrcode p {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+.resume-header {
+  text-decoration: underline;
+  font-weight: 700;
+}
+#loadingimages{
+  display: none;
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+
+@media (max-width: 799px) {
+  #qrcode, #taskbar, .desktop {
+    display: none;
+  }
+  .shortcut {
+    position: static;
+  }
+  .mobile {
+    display: inline-block;
+  }
+  #phone {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -111px;
+  }
+  #sms {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    margin-left: -44px;
+  }
+  #gmail {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    margin-left: 23px;
+  }
+}
