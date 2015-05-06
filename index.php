@@ -136,7 +136,7 @@
 
   <div id="loadingimages">
     <div id="tonysimgs">
-      <img src="images/tony/1502092_10100794733964121_1115007217_n.jpg" data-width="720" data-height="960" style="opacity: 0;">=
+      <img src="images/tony/1502092_10100794733964121_1115007217_n.jpg" data-width="720" data-height="960" style="opacity: 0;">
       <img src="images/tony/1899154_10100842819570181_1282608400_n.jpg" data-width="960" data-height="720" style="opacity: 0;">
       <img src="images/tony/10261806_10100900780605801_1949900553_n.jpg" data-width="960" data-height="720" style="opacity: 0;">
       <img src="images/tony/IMG_0532.jpg" data-width="960" data-height="640" style="opacity: 0;">
