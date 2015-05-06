@@ -104,7 +104,7 @@
     <div id="pwalgcontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="http://uzitech.com/pwalg"></iframe></div>
     <div id="mobilepwalg" data-href="http://uzitech.com/pwalg" data-img="images/pwalg.png" class="mobile shortcut"><span class="title">Password Algorithm</span></div>
     <div id="pws" data-img="images/pws.png" class="desktop shortcut"><span class="title">Password Keys</span></div>
-    <div id="pwscontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="http://uzitech.com/pws"></iframe></div>
+    <!--div id="pwscontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="http://uzitech.com/pws"></iframe></div-->
     <div id="mobilepws" data-href="http://uzitech.com/pws" data-img="images/pws.png" class="mobile shortcut"><span class="title">Password Keys</span></div>
     <div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
     <div id="github" data-href="https://github.com/uzitech" data-img="images/github.png" class="shortcut"><span class="title">GitHub</span></div>
