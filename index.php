@@ -114,14 +114,6 @@
     <div data-href="mailto:me@TonyBrix.info" data-img="images/gmail.png" id="gmail" class="mobile shortcut"></div>
   </div>
   
-  <!-- JavaScript at the bottom for fast page loading -->
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lte IE 6]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-  
   <!--[if gte IE 7]><!-->
 
 	<script src="js/jquery.1.7.2.min.js" type="text/javascript"></script>
@@ -134,13 +126,13 @@
 	<script src="js/minesweeper/jquery.minesweeper.js" type="text/javascript"></script>
 	<script src="js/script.js" type="text/javascript"></script>
   <!--<![endif]-->
-  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <!-- Change UA-XXXXX-X to be your site's ID - ->
   <script>
     window._gaq = [['_setAccount','UA-33500524-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: 'http://www.google-analytics.com/ga.js'
     });
-  </script>
+  </script-->
 
   <div id="loadingimages">
     <div id="tonysimgs">
