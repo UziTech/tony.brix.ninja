@@ -80,7 +80,7 @@ $(function(){
                 "counselor’s question, if I had $1,000,000 I would write programs for anybody\n"+
                 "and everybody.\n";
   var resume =  "Anthony Brix\n"+
-								"me@TonyBrix.info\n"+
+								"Tony@Brix.ninja\n"+
 								"(320) 249-1820\n"+
 								"\n"+
 								"<span class='resume-header'>Technical Skills</span>\n"+
@@ -451,7 +451,7 @@ $(function(){
   });*/
   /*$("#emailcontent").window({
     shortcutID: "email",
-    title: "Send Email: me@TonyBrix.info",
+    title: "Send Email: Tony@Brix.ninja",
     titleIcon: "/images/email.png",
     minHeight: 200,
     minWidth: 550,
@@ -488,7 +488,7 @@ $(function(){
     theme_advanced_statusbar_location : "bottom",
     nonbreaking_force_tab : true,
     relative_urls: false,
-    document_base_url: "http://tonybrix.info/",
+    document_base_url: "http://Tony.Brix.ninja/",
     doctype: "<!DOCTYPE html>",
     oninit: function(){
       $("span.mce_save").css({
@@ -497,7 +497,7 @@ $(function(){
       $("a.mce_save").attr("title", "Send (Ctrl+S)");
       $("a.mce_save #emailbody_save_voice").text("Send (Ctrl+S)");
       $("#emailbody_toolbargroup span[role='application']").append("<div id='emailinput'><div id='emailfrom'><div class='send_icon'></div><div class='send_label'>From:</div><input type='text' class='send_input' id='from' value='' /></div>"+
-                                                                   "<div id='emailto'><div class='send_icon'></div><div class='send_label'>To:</div><input type='text' class='send_input' value='Tony Brix <me@TonyBrix.info>' readonly='true' /></div>"+
+                                                                   "<div id='emailto'><div class='send_icon'></div><div class='send_label'>To:</div><input type='text' class='send_input' value='Tony Brix <Tony@Brix.ninja>' readonly='true' /></div>"+
                                                                    "<div id='emailsubject'><div class='send_label' style='margin-left:4px;margin-right:21px;'>Subject:</div><input type='text' class='send_input' id='subject' value='' /></div></div>");
       $(".mceStatusbar").html("").css({height: "24px"});
       $("<div id='emailsend'>Send</div>").appendTo(".mceStatusbar")

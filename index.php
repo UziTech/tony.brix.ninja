@@ -80,15 +80,15 @@
 <body>
   <div id="portrait"></div>
   <div id="qrcode">
-    <img src="images/qrcode.png" alt="http://tonybrix.info/" />
-    <p id="contact-info">Tony Brix<br />(320) 249-1820<br />me@TonyBrix.info</p>
+    <img src="images/qrcode.png" alt="http://tony.brix.ninja/" />
+    <p id="contact-info">Tony Brix<br />(320) 249-1820<br />Tony@Brix.ninja</p>
   </div>
   <div id="icons">
     <div data-img="images/about.png" id="about" class="desktop shortcut"><span class="title">About</span></div>
     <div id="aboutcontent" tabindex="1"></div>
     <div data-img="images/resume.png" id="resume" class="desktop shortcut"><span class="title">Resume</span></div>
     <div id="resumecontent"></div>
-    <div data-href="mailto:me@TonyBrix.info" data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
+    <div data-href="mailto:Tony@Brix.ninja" data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
     <!--div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div-->
     <div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div> 
     <div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div> 
@@ -111,7 +111,7 @@
     <div id="gist" data-href="https://gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
     <div data-href="tel:3202491820" data-img="images/phone.png" id="phone" class="mobile shortcut"></div>
     <div data-href="sms:3202491820" data-img="images/sms.png" id="sms" class="mobile shortcut"></div>
-    <div data-href="mailto:me@TonyBrix.info" data-img="images/gmail.png" id="gmail" class="mobile shortcut"></div>
+    <div data-href="mailto:Tony@Brix.ninja" data-img="images/gmail.png" id="gmail" class="mobile shortcut"></div>
   </div>
   
   <!--[if gte IE 7]><!-->
