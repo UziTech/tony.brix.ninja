@@ -126,13 +126,12 @@
 	<script src="js/minesweeper/jquery.minesweeper.js" type="text/javascript"></script>
 	<script src="js/script.js" type="text/javascript"></script>
   <!--<![endif]-->
-  <!-- Change UA-XXXXX-X to be your site's ID - ->
   <script>
     window._gaq = [['_setAccount','UA-33500524-1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: 'http://www.google-analytics.com/ga.js'
     });
-  </script-->
+  </script>
 
   <div id="loadingimages">
     <div id="tonysimgs">
