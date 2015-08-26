@@ -106,9 +106,10 @@
     <div data-href="http://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
     <div data-href="http://uzitech.com/files.php" data-img="images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div>
     <div data-href="http://blog.uzitech.com" data-img="images/blog.png" id="blog" class="shortcut"><span class="title">Blog</span></div>
-    <div data-href="http://www.facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
+    <div data-href="https://facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
+    <div data-href="https://twitter.com/tonybrix" data-img="images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
     <div data-href="http://gplus.to/tbrix13" data-img="images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
-    <div data-href="http://www.linkedin.com/pub/tony-brix/37/436/98a/" data-img="images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
+    <div data-href="https://www.linkedin.com/pub/tony-brix/37/436/98a/" data-img="images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
     <div data-img="images/minesweeper.png" id="minesweeper" class="desktop shortcut"><span class="title">Mine Sweeper</span></div>
     <div id="minesweepercontent"><canvas id="minesweepercanvas" tabindex="1">Your browser is not compatible.Please update your browser.</canvas></div>
     <div id="pwalg" data-img="images/pwalg.png" class="desktop shortcut"><span class="title">Password Algorithm</span></div>
@@ -119,7 +120,7 @@
     <div id="mobilepws" data-href="http://uzitech.com/pws" data-img="images/pws.png" class="mobile shortcut"><span class="title">Password Keys</span></div>
     <div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
     <div id="github" data-href="https://github.com/uzitech" data-img="images/github.png" class="shortcut"><span class="title">GitHub</span></div>
-    <div id="gist" data-href="https://gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
+    <div id="gists" data-href="https://gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
     <div id="freecodecamp" data-href="http://freecodecamp.com/uzitech" data-img="images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
     <div data-href="tel:3202491820" data-img="images/phone.png" id="phone" class="mobile shortcut"></div>
     <div data-href="sms:3202491820" data-img="images/sms.png" id="sms" class="mobile shortcut"></div>

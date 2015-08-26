@@ -181,6 +181,15 @@ $(function(){
             case "facebook":
               $("#facebook").click();
               break;
+            case "github":
+              $("#github").click();
+              break;
+            case "gists":
+              $("#gists").click();
+              break;
+            case "freecodecamp":
+              $("#freecodecamp").click();
+              break;
             case "gplus":
             case "googleplus":
               $("#googleplus").click();
@@ -192,24 +201,31 @@ $(function(){
             case "resume.txt":
               $("#resume").click();
               break;
+            case "twitter":
+              $("#twitter").click();
+              break;
             case "about":
             case "about.exe":
               display += about;
               break;
             case "help":
-              display += "ABOUT       Show info about Tony Brix\n"+
-                         "BLOG        Open Blog\n"+
-                         "CD          Change directory\n"+
-                         "CLS         Clear the screen\n"+
-                         "DIR         Displays a list of files and subdirectories in a directory.\n"+
-                         "EMAIL       Open Send Email\n"+
-                         "EXIT        Close window\n"+
-                         "FACEBOOK    Open Facebook\n"+
-                         "GPLUS       Open Google Plus\n"+
-                         "HELP        Show help menu\n"+
-                         "MINESWEEPER Open Mine Sweeper\n"+
-                         "PORTFOLIO   Open Portfolio\n"+
-                         "RESUME      Open Resume.txt\n"+
+              display += "ABOUT				  Show info about Tony Brix\n"+
+                         "BLOG          Open Blog\n"+
+                         "CD            Change directory\n"+
+                         "CLS           Clear the screen\n"+
+                         "DIR           Displays a list of files and subdirectories in a directory.\n"+
+                         "EMAIL         Open Send Email\n"+
+                         "EXIT          Close window\n"+
+                         "FACEBOOK      Open Facebook\n"+
+                         "FREECODECAMP  Open FreeCodeCamp\n"+
+                         "GISTS         Open Gists\n"+
+                         "GITHUB        Open GitHub\n"+
+                         "GPLUS         Open Google Plus\n"+
+                         "HELP          Show help menu\n"+
+                         "MINESWEEPER   Open Mine Sweeper\n"+
+                         "PORTFOLIO     Open Portfolio\n"+
+                         "RESUME        Open Resume.txt\n"+
+                         "TWITTER       Open Twitter\n"+
                          "";
               break;
             case "exit":
