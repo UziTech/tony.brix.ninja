@@ -120,6 +120,7 @@
     <div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
     <div id="github" data-href="https://github.com/uzitech" data-img="images/github.png" class="shortcut"><span class="title">GitHub</span></div>
     <div id="gist" data-href="https://gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
+    <div id="freecodecamp" data-href="http://freecodecamp.com/uzitech" data-img="images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
     <div data-href="tel:3202491820" data-img="images/phone.png" id="phone" class="mobile shortcut"></div>
     <div data-href="sms:3202491820" data-img="images/sms.png" id="sms" class="mobile shortcut"></div>
     <div data-href="mailto:Tony@Brix.ninja" data-img="images/gmail.png" id="gmail" class="mobile shortcut"></div>
