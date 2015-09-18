@@ -28,7 +28,7 @@ a {
 
 <p>Languages:  Assembly, ASP, ASP.NET, TI Basic, BF, C, C#, C++, ColdFusion, Dart, Flash, HTML, Java, JavaScript, JSP, MATLAB, MySQL, Objective C, Octave, Perl, PHP, Python, QBasic, Regular Expressions, Ruby, Rails, SQL Server 2008, SQLite, TypeScript, VB6, VB.NET, VHDL, WML, XML</p>
 
-<p>Operating Systems: Windows XP - 8.1, Mac OS X, iPhone OS, Android OS, Ubuntu, Knoppix, Fedora</p>
+<p>Operating Systems: Windows, Mac OS X, iPhone OS, Android OS, Ubuntu, Knoppix, Fedora</p>
 
 <h2>Education</h2>
 <p>
