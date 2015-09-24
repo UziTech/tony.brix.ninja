@@ -91,7 +91,6 @@
 <body>
   <div id="portrait"></div>
   <div id="qrcode">
-    <img src="images/qrcode.png" alt="http://tony.brix.ninja/" />
     <p id="contact-info">Tony Brix<br />(320) 249-1820<br />Tony@Brix.ninja</p>
   </div>
   <div id="icons">

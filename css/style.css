@@ -157,13 +157,9 @@ body{
   right: 15px;
   z-index: -1;
   text-align: center;
-}
-#qrcode img {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  behavior: url(/css/PIE.htc);
+	background: url('/images/qrcode.png') no-repeat top center;
+	width: 145px;
+	padding-top: 145px;
 }
 #qrcode p {
   color: white;
