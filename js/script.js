@@ -160,7 +160,7 @@ $(function () {
 		onAfterClose: function () {
 			$("#aboutcontent").html($.pre("Type \"About\" to open the program\nor \"Help\" to diplay a list of commands\n\nC:\\Documents and Settings\\Tony Brix\\Desktop>"));
 			opened = false;
-			clearInterval(cursor)
+			clearInterval(cursor);
 		},
 		onBeforeOpen: function () {
 			clearTimeout(jumpTimeout);
@@ -170,11 +170,11 @@ $(function () {
 			$("#aboutcontent").focus().append("<span id='input'><span id='cmd_cursor' style='color:#000;background-color:#fff;'>&nbsp;</span></span>")
 					.keypress(function (e) {
 						e.preventDefault();
-						if (e.which == 13)
+						if (e.which === 13)
 						{
-							$("#cmd_cursor").before($("#cmd_cursor").text()).remove()
+							$("#cmd_cursor").before($("#cmd_cursor").text()).remove();
 							var text = $("#input").html();
-							if (text.substring(text.length - 1) == " ")
+							if (text.substring(text.length - 1) === " ")
 							{
 								text = text.substring(0, text.length - 1);
 							}
@@ -285,9 +285,9 @@ $(function () {
 									display += "";
 									break;
 								default:
-									if (text.substring(0, 3).toLowerCase() == "cd ")
+									if (text.substring(0, 3).toLowerCase() === "cd ")
 									{
-										if (text.substring(3).toLowerCase() != "\"C:\\Documents and Settings\\Tony Brix\\Desktop\"")
+										if (text.substring(3).toLowerCase() !== "\"C:\\Documents and Settings\\Tony Brix\\Desktop\"")
 										{
 											display += "Access is denied.\n";
 										}
@@ -317,7 +317,7 @@ $(function () {
 						else if (e.which >= 32 && e.which <= 126)
 						{
 							var keychar = String.fromCharCode(e.which);
-							if (keychar == " ")
+							if (keychar === " ")
 							{
 								keychar = $.pre(" ");
 							}
@@ -333,15 +333,15 @@ $(function () {
 								var inputhtml = $("#input").html();
 								var delindex = inputhtml.indexOf("<");
 								var newinputhtml = "";
-								if (inputhtml.substring(delindex - 4, delindex) == "&lt;" || inputhtml.substring(delindex - 4, delindex) == "&gt;" || inputhtml.substring(delindex - 4, delindex) == "&#0;")
+								if (inputhtml.substring(delindex - 4, delindex) === "&lt;" || inputhtml.substring(delindex - 4, delindex) === "&gt;" || inputhtml.substring(delindex - 4, delindex) === "&#0;")
 								{
 									newinputhtml = inputhtml.substring(0, delindex - 4) + inputhtml.substring(delindex);
 								}
-								else if (inputhtml.substring(delindex - 5, delindex) == "&amp;")
+								else if (inputhtml.substring(delindex - 5, delindex) === "&amp;")
 								{
 									newinputhtml = inputhtml.substring(0, delindex - 5) + inputhtml.substring(delindex);
 								}
-								else if (inputhtml.substring(delindex - 6, delindex) == "&nbsp;")
+								else if (inputhtml.substring(delindex - 6, delindex) === "&nbsp;")
 								{
 									newinputhtml = inputhtml.substring(0, delindex - 6) + inputhtml.substring(delindex);
 								}
@@ -357,19 +357,19 @@ $(function () {
 								$("#cmd_cursor").remove();
 								var inputhtml = $("#input").html();
 								var newinputhtml = "";
-								if (delindex == inputhtml.length)
+								if (delindex === inputhtml.length)
 								{
 									newinputhtml = inputhtml + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">&nbsp;</span>";
 								}
-								else if (inputhtml.substring(delindex, delindex + 4) == "&lt;" || inputhtml.substring(delindex, delindex + 4) == "&gt;")
+								else if (inputhtml.substring(delindex, delindex + 4) === "&lt;" || inputhtml.substring(delindex, delindex + 4) === "&gt;")
 								{
 									newinputhtml = inputhtml.substring(0, delindex) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(delindex, delindex + 4) + "</span>" + inputhtml.substring(delindex + 4);
 								}
-								else if (inputhtml.substring(delindex, delindex + 5) == "&amp;")
+								else if (inputhtml.substring(delindex, delindex + 5) === "&amp;")
 								{
 									newinputhtml = inputhtml.substring(0, delindex) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(delindex, delindex + 5) + "</span>" + inputhtml.substring(delindex + 5);
 								}
-								else if (inputhtml.substring(delindex, delindex + 6) == "&nbsp;")
+								else if (inputhtml.substring(delindex, delindex + 6) === "&nbsp;")
 								{
 									newinputhtml = inputhtml.substring(0, delindex) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(delindex, delindex + 6) + "</span>" + inputhtml.substring(delindex + 6);
 								}
@@ -393,19 +393,19 @@ $(function () {
 								$("#cmd_cursor").before(cursorChar).remove();
 								var inputhtml = $("#input").html();
 								var newinputhtml = "";
-								if (curIndex == 0)
+								if (+curIndex === 0)
 								{
 									newinputhtml = "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(0, cursorChar.length) + "</span>" + inputhtml.substring(cursorChar.length);
 								}
-								else if (inputhtml.substring(curIndex - 4, curIndex) == "&lt;" || inputhtml.substring(curIndex - 4, curIndex) == "&gt;")
+								else if (inputhtml.substring(curIndex - 4, curIndex) === "&lt;" || inputhtml.substring(curIndex - 4, curIndex) === "&gt;")
 								{
 									newinputhtml = inputhtml.substring(0, curIndex - 4) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(curIndex - 4, curIndex) + "</span>" + inputhtml.substring(curIndex);
 								}
-								else if (inputhtml.substring(curIndex - 5, curIndex) == "&amp;")
+								else if (inputhtml.substring(curIndex - 5, curIndex) === "&amp;")
 								{
 									newinputhtml = inputhtml.substring(0, curIndex - 5) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(curIndex - 5, curIndex) + "</span>" + inputhtml.substring(curIndex);
 								}
-								else if (inputhtml.substring(curIndex - 6, curIndex) == "&nbsp;")
+								else if (inputhtml.substring(curIndex - 6, curIndex) === "&nbsp;")
 								{
 									newinputhtml = inputhtml.substring(0, curIndex - 6) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(curIndex - 6, curIndex) + "</span>" + inputhtml.substring(curIndex);
 								}
@@ -429,19 +429,19 @@ $(function () {
 								$("#cmd_cursor").before(cursorChar).remove();
 								var inputhtml = $("#input").html();
 								var newinputhtml = "";
-								if (curIndex == inputhtml.length - 6)
+								if (+curIndex === inputhtml.length - 6)
 								{
 									newinputhtml = inputhtml.substring(0, inputhtml.length - 6) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">&nbsp;</span>";
 								}
-								else if (inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 4) == "&lt;" || inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 4) == "&gt;")
+								else if (inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 4) === "&lt;" || inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 4) === "&gt;")
 								{
 									newinputhtml = inputhtml.substring(0, curIndex + cursorChar.length) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 4) + "</span>" + inputhtml.substring(curIndex + cursorChar.length + 4);
 								}
-								else if (inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 5) == "&amp;")
+								else if (inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 5) === "&amp;")
 								{
 									newinputhtml = inputhtml.substring(0, curIndex + cursorChar.length) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 5) + "</span>" + inputhtml.substring(curIndex + cursorChar.length + 5);
 								}
-								else if (inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 6) == "&nbsp;")
+								else if (inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 6) === "&nbsp;")
 								{
 									newinputhtml = inputhtml.substring(0, curIndex + cursorChar.length) + "<span id='cmd_cursor'" + ((!cursorswitch) ? " style='color:#000;background-color:#fff;'" : "") + ">" + inputhtml.substring(curIndex + cursorChar.length, curIndex + cursorChar.length + 6) + "</span>" + inputhtml.substring(curIndex + cursorChar.length + 6);
 								}
@@ -755,7 +755,7 @@ $(function () {
 		}
 	});
 	$("#customcontent input").keydown(function (e) {
-		if (e.which == 13)
+		if (e.which === 13)
 		{
 			$("#customcontent #ok").click();
 		}
@@ -776,7 +776,7 @@ $(function () {
 				"<div id='expert'>" +
 				"Expert:\t\t999 seconds/tAnonymous" +
 				"</div>" +
-				"<button id='reset' style='margin: 15px 38px 0px 23px;'>Reset Scores</button><button id='ok'>OK</button>" +
+				"<button id='reset' style='margin: 15px 38px 0px 23px;'>Reset Scores</button><button id='okb'>OK</button>" +
 				"</div>").window({
 			shortcutID: "minesweeper_Best_Times___2",
 			titleIcon: "js/minesweeper/images/mine_icon_sm.png",
@@ -801,7 +801,7 @@ $(function () {
 				$("#highscorescontent #expert").html("Expert:\t\t999 seconds\tAnonymous");
 			}
 		});
-		$("#highscorescontent #ok").click(function () {
+		$("#highscorescontent #okb").click(function () {
 			$("#highscorescontent").window("close");
 		});
 	}
@@ -818,7 +818,7 @@ $(function () {
 		(function () {
 			windowHeight = $(window).height() - taskbarHeight;
 			windowWidth = $(window).width();
-			if (windowWidth > iconWidth && windowHeight > iconHeight && (Math.floor(windowWidth / iconWidth) != iconsWide || Math.floor(windowHeight / iconHeight) != iconsHigh)) {
+			if (windowWidth > iconWidth && windowHeight > iconHeight && (Math.floor(windowWidth / iconWidth) !== iconsWide || Math.floor(windowHeight / iconHeight) !== iconsHigh)) {
 				iconsWide = Math.floor(windowWidth / iconWidth);
 				iconsHigh = Math.floor(windowHeight / iconHeight);
 				positionIcons();
@@ -841,7 +841,7 @@ $(function () {
 
 	rotateImgInterval = setInterval(rotateImg, 10000);
 	jumpTimeout = setTimeout(function () {
-		iconJump("#about")
+		iconJump("#about");
 	}, 2000);
 });//end document ready
 function positionIcons() {
@@ -861,11 +861,11 @@ function positionIcons() {
  $("#from").focus().select();
  return;
  }
- if(subject == "" && !confirm("Your subject is blank. Are you sure you want to send an empty subject?"))
+ if(subject === "" && !confirm("Your subject is blank. Are you sure you want to send an empty subject?"))
  {
  return;
  }
- if(body == "")
+ if(body === "")
  {
  alert("You cannot send an empty body.");
  return;
@@ -933,7 +933,7 @@ function iconJump(elem)
 														if (!opened && !$.mobile)
 														{
 															jumpTimeout = setTimeout(function () {
-																iconJump(elem)
+																iconJump(elem);
 															}, 2000);
 														}
 													}
@@ -959,7 +959,7 @@ function getArgs(text)
 	{
 		if (inQuotes)
 		{
-			if (arr[i].substring(arr[i].length - 1) == "\"")
+			if (arr[i].substring(arr[i].length - 1) === "\"")
 			{
 				inQuotes = false;
 				args[args.length - 1] += " " + arr[i].substring(0, arr[i].length - 1);
@@ -969,9 +969,9 @@ function getArgs(text)
 				args[args.length - 1] += " " + arr[i];
 			}
 		}
-		else if (arr[i].substring(0, 1) == "\"")
+		else if (arr[i].substring(0, 1) === "\"")
 		{
-			if (arr[i].substring(arr[i].length - 1) == "\"")
+			if (arr[i].substring(arr[i].length - 1) === "\"")
 			{
 				args.push(arr[i].substring(1, arr[i].length - 1));
 			}
