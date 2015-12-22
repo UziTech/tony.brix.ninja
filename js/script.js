@@ -93,7 +93,7 @@ $(function () {
 			"\n" +
 			"<span class='resume-header'>Technical Skills</span>\n" +
 			"\n" +
-			"Languages:  Assembly, ASP, ASP.NET, TI Basic, BF, C, C#, C++, ColdFusion, Dart, DB2, Flash, Go, HTML, Java, JavaScript, JSP, MATLAB, MySQL, Objective C, Octave, Perl, PHP, Python, QBasic, Regular Expressions, Ruby, Rails, SQL Server 2008, SQLite, Swift, TypeScript, VB6, VB.NET, VHDL, WML, XML\n" +
+			"Languages:  Assembly, ASP, ASP.NET, TI Basic, BF, C, C#, C++, ColdFusion, Dart, DB2, Flash, Go, HTML, Java, JavaScript, JSP, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Regular Expressions, Ruby, Rails, SQL Server 2008, SQLite, Swift, TypeScript, VB6, VB.NET, VHDL, WML, XML\n" +
 			"\n" +
 			"Operating Systems: Windows, Mac OS X, iPhone OS, Android OS, Ubuntu, Knoppix, Fedora\n" +
 			"\n" +
