@@ -24,8 +24,8 @@ handlers:
 - url: /resume\.php
   script: resume.php
 
-- url: /mosaic\.php
-  script: mosaic.php
+- url: /randompicture\.php
+  script: randompicture.php
 
 - url: .*
   script: index.php
