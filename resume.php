@@ -26,7 +26,7 @@ a {
 
 <h2>Technical Skills</h2>
 
-<p>Languages:  Assembly, ASP, ASP.NET, TI Basic, BF, C, C#, C++, ColdFusion, Dart, Flash, HTML, Java, JavaScript, JSP, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Regular Expressions, Ruby, Rails, SQL Server 2008, SQLite, TypeScript, VB6, VB.NET, VHDL, WML, XML</p>
+<p>Languages:  Assembly, ASP, ASP.NET, TI Basic, BF, C, C#, C++, CoffeeScript, ColdFusion, Dart, Flash, HTML, Java, JavaScript, JSP, JSX, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Rails, React, Regular Expressions, Ruby, Rust, SQL Server 2008, SQLite, TypeScript, VB6, VB.NET, VHDL, WML, XML</p>
 
 <p>Operating Systems: Windows, Mac OS X, iPhone OS, Android OS, Ubuntu, Knoppix, Fedora</p>
 

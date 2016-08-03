@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/defaults.css"/>
   <link rel="stylesheet" href="js/window/window.css"/>
   <link rel="stylesheet" href="css/style.css"/>
-  <!--[if IE 7]> 
+  <!--[if IE 7]>
   <style type="text/css">
     .wdw-window>tbody>.titlebarmiddle>.center{
       behavior: none !important;
@@ -54,7 +54,7 @@
     }
   </style>
   <![endif]-->
-  <!--[if IE 8]> 
+  <!--[if IE 8]>
   <style type="text/css">
     .wdw-window>tbody>.titlebarmiddle>.center{
       behavior: none !important;
@@ -64,7 +64,7 @@
     }
   </style>
   <![endif]-->
-  <!--[if IE 9]> 
+  <!--[if IE 9]>
   <style type="text/css">
     .wdw-buttons{
       top: -2px !important;
@@ -84,7 +84,7 @@
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 </head>
 
@@ -100,32 +100,32 @@
     <div id="resumecontent"></div>
     <div data-href="mailto:Tony@Brix.ninja" data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
     <!--div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div-->
-    <div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div> 
-    <div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div> 
-    <div data-href="//uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
-    <div data-href="//uzitech.com/files.php" data-img="images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div>
-    <div data-href="//blog.uzitech.com" data-img="images/blog.png" id="blog" class="shortcut"><span class="title">Blog</span></div>
-    <div data-href="//facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
-    <div data-href="//twitter.com/tonybrix" data-img="images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
-    <div data-href="//gplus.to/tbrix13" data-img="images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
-    <div data-href="//www.linkedin.com/pub/tony-brix/37/436/98a/" data-img="images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
+    <div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div>
+    <div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div>
+    <div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
+    <div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div>
+    <div data-href="https://blog.uzitech.com" data-img="images/blog.png" id="blog" class="shortcut"><span class="title">Blog</span></div>
+    <div data-href="https://facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
+    <div data-href="https://twitter.com/tonybrix" data-img="images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
+    <div data-href="https://gplus.to/tbrix13" data-img="images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
+    <div data-href="https://www.linkedin.com/pub/tony-brix/37/436/98a/" data-img="images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
     <div data-img="images/minesweeper.png" id="minesweeper" class="desktop shortcut"><span class="title">Mine Sweeper</span></div>
     <div id="minesweepercontent"><canvas id="minesweepercanvas" tabindex="0">Your browser is not compatible.Please update your browser.</canvas></div>
     <!--div id="pwalg" data-img="images/pwalg.png" class="desktop shortcut"><span class="title">Password Algorithm</span></div>
     <div id="pwalgcontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="https://uzitech.com/pwalg"></iframe></div-->
-    <div id="mobilepwalg" data-href="//uzitech.com/pwalg" data-img="images/pwalg.png" class="shortcut"><span class="title">Password Algorithm</span></div>
-    <div data-href="//uzitech.com/pws" id="pws" data-img="images/pws.png" class="desktop shortcut"><span class="title">Password Keys</span></div>
+    <div id="mobilepwalg" data-href="https://uzitech.com/pwalg" data-img="images/pwalg.png" class="shortcut"><span class="title">Password Algorithm</span></div>
+    <div data-href="https://uzitech.com/pws" id="pws" data-img="images/pws.png" class="desktop shortcut"><span class="title">Password Keys</span></div>
     <!--div id="pwscontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="//uzitech.com/pws"></iframe></div-->
-    <div id="mobilepws" data-href="//uzitech.com/pws" data-img="images/pws.png" class="mobile shortcut"><span class="title">Password Keys</span></div>
-    <div id="googleplay" data-href="//play.google.com/store/apps/developer?id=UziTech" data-img="images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
-    <div id="github" data-href="//github.com/uzitech" data-img="images/github.png" class="shortcut"><span class="title">GitHub</span></div>
-    <div id="gists" data-href="//gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
-    <div id="freecodecamp" data-href="//freecodecamp.com/uzitech" data-img="images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
+    <div id="mobilepws" data-href="https://uzitech.com/pws" data-img="images/pws.png" class="mobile shortcut"><span class="title">Password Keys</span></div>
+    <div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
+    <div id="github" data-href="https://github.com/uzitech" data-img="images/github.png" class="shortcut"><span class="title">GitHub</span></div>
+    <div id="gists" data-href="https://gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
+    <div id="freecodecamp" data-href="https://freecodecamp.com/uzitech" data-img="images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
     <div data-href="tel:3202491820" data-img="images/phone.png" id="phone" class="mobile shortcut"></div>
     <div data-href="sms:3202491820" data-img="images/sms.png" id="sms" class="mobile shortcut"></div>
     <div data-href="mailto:Tony@Brix.ninja" data-img="images/gmail.png" id="gmail" class="mobile shortcut"></div>
   </div>
-  
+
   <!--[if gte IE 7]><!-->
 
 	<script src="js/jquery.1.7.2.min.js" type="text/javascript"></script>
@@ -200,5 +200,16 @@
       <img src='images/tony/facebook_1422485401377.jpg' data-width='960' data-height='640' alt="Tony Brix" />
     </div>
   </div>
+  <!--Facebook Chat Widget - Made by Supple Solutions - https://supple.com.au/tools/facebook-messenger-website-chat-widget/ -->
+  <link rel="stylesheet" href="/js/facebookMessenger/facebookMessenger.css" />
+  <script src="/js/facebookMessenger/facebookMessenger.js"></script>
+  <div class='code'>
+    <a id="fb_link" href="http://m.me/tbrix13" target="_blank" class="" style="display: inline;">
+      <div class="fbmessenger wposbottom_right"><img id="img_msg" src="https://supple.com.au/wp-content/themes/supple/img/msg.png"><img id="img_email" src="https://supple.com.au/wp-content/themes/supple/img/emailc.png" style="display: none;">
+        <span class="tooltiptext wposbottom_right">Message Me</span>
+      </div>
+    </a>
+  </div>
+  <!--Facebook Chat Widget - Made by Supple Solutions - https://supple.com.au/tools/facebook-messenger-website-chat-widget/ -->
 </body>
 </html>
