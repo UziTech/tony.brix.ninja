@@ -106,6 +106,7 @@
     <div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div>
     <div data-href="https://blog.uzitech.com" data-img="images/blog.png" id="blog" class="shortcut"><span class="title">Blog</span></div>
     <div data-href="https://facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
+    <div data-href="https://m.me/tbrix13" data-img="images/messenger.png" id="messenger" class="shortcut"><span class="title">Messenger</span></div>
     <div data-href="https://twitter.com/tonybrix" data-img="images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
     <div data-href="https://gplus.to/tbrix13" data-img="images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
     <div data-href="https://www.linkedin.com/pub/tony-brix/37/436/98a/" data-img="images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
@@ -200,16 +201,5 @@
       <img src='images/tony/facebook_1422485401377.jpg' data-width='960' data-height='640' alt="Tony Brix" />
     </div>
   </div>
-  <!--Facebook Chat Widget - Made by Supple Solutions - https://supple.com.au/tools/facebook-messenger-website-chat-widget/ -->
-  <link rel="stylesheet" href="/js/facebookMessenger/facebookMessenger.css" />
-  <script src="/js/facebookMessenger/facebookMessenger.js"></script>
-  <div class='code'>
-    <a id="fb_link" href="http://m.me/tbrix13" target="_blank" class="" style="display: inline;">
-      <div class="fbmessenger wposbottom_right"><img id="img_msg" src="https://supple.com.au/wp-content/themes/supple/img/msg.png"><img id="img_email" src="https://supple.com.au/wp-content/themes/supple/img/emailc.png" style="display: none;">
-        <span class="tooltiptext wposbottom_right">Message Me</span>
-      </div>
-    </a>
-  </div>
-  <!--Facebook Chat Widget - Made by Supple Solutions - https://supple.com.au/tools/facebook-messenger-website-chat-widget/ -->
 </body>
 </html>
