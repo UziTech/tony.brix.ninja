@@ -1,52 +1,109 @@
 <?php
 
-function cspHashes($default, $hashArray) {
+// I'm trying to use the best security preactices here
+// even though this is only a pamphlet site
+
+// CSP
+function cspHashes($hashArray) {
 	if (count($hashArray) === 0) {
 		return "";
 	}
-	$csps = [];
+	$csp = [];
 
 	foreach ($hashArray as $src => $arr) {
-		$csp = "{$src} {$default}";
-		foreach ($arr as $hash) {
-			$csp .= " {$hash}";
-		}
-		$csps[] = $csp;
+		$csp[] = $src . " " . implode(" ", $arr);
 	}
 
-	return implode("; ", $csps);
+	return implode("; ", $csp);
 }
 
-header("X-XSS-Protection: 1; mode=block");
-header("X-Frame-Options: DENY");
+$nonces = [
+	"modernizr" => mt_rand(),
+	"hotjar" => mt_rand(),
+	"google analytics" => mt_rand(),
+	"mixpanel" => mt_rand(),
+	"js/jquery.1.7.2.min.js" => mt_rand(),
+	"js/window/jquery.window.js" => mt_rand(),
+	"js/jquery.canvas.js" => mt_rand(),
+	"js/jquery.spellout.js" => mt_rand(),
+	"js/jquery-outline-1.5.js" => mt_rand(),
+	"js/json.js" => mt_rand(),
+	"js/jquery.store.js" => mt_rand(),
+	"js/minesweeper/jquery.minesweeper.js" => mt_rand(),
+	"js/script.js" => mt_rand(),
+];
 
 $cspHashArray = [
-	"default-src" => [],
+	"default-src" => ["https:"],
 	"style-src" => [
+		"https:",
 		// allow inline styles set by javascript
 		"'unsafe-inline'",
 	],
 	"script-src" => [
+		"https:",
+		// 'unsafe-inline' is for backwards compatibility
+		"'unsafe-inline'",
+		"'strict-dynamic'",
+		//
+		// modernizr
+		"'nonce-{$nonces["modernizr"]}'",
 		// hotjar
-		"'sha256-+aYsgX7b6iAgCjd9Ox5MJjYLuUdITdUGWmGWXDam/k0='",
+		"'nonce-{$nonces["hotjar"]}'",
+		//"'sha256-+aYsgX7b6iAgCjd9Ox5MJjYLuUdITdUGWmGWXDam/k0='",
 		// google analytics
-		"'sha256-WxOyqsSGFt+w2tx+sUfyVLkkjqR94wvn8Mlu92xNx68='",
+		"'nonce-{$nonces["google analytics"]}'",
+		//"'sha256-WxOyqsSGFt+w2tx+sUfyVLkkjqR94wvn8Mlu92xNx68='",
 		// mixpanel
-		"'sha256-kYebbjIGLF/wTaeDHPdj+tlcqhNDqiXSGup7UlDgexI='",
+		"'nonce-{$nonces["mixpanel"]}'",
+		//"'sha256-kYebbjIGLF/wTaeDHPdj+tlcqhNDqiXSGup7UlDgexI='",
+		"'nonce-{$nonces["js/jquery.1.7.2.min.js"]}'",
+		"'nonce-{$nonces["js/window/jquery.window.js"]}'",
+		"'nonce-{$nonces["js/jquery.canvas.js"]}'",
+		"'nonce-{$nonces["js/jquery.spellout.js"]}'",
+		"'nonce-{$nonces["js/jquery-outline-1.5.js"]}'",
+		"'nonce-{$nonces["js/json.js"]}'",
+		"'nonce-{$nonces["js/jquery.store.js"]}'",
+		"'nonce-{$nonces["js/minesweeper/jquery.minesweeper.js"]}'",
+		"'nonce-{$nonces["js/script.js"]}'",
 	],
 	"connect-src" => [
+		"https:",
 		// hotjar
-		"wss:"
+		"wss:",
 	],
 	"img-src" => [
+		"https:",
 		// allow data: images
-		"data:"
+		"data:",
 	],
-	"object-src" => [
-		"'none'"
-	],
+	"object-src" => ["'none'"],
 ];
-header("Content-Security-Policy: ".cspHashes("https:", $cspHashArray));
+header("Content-Security-Policy: ".cspHashes($cspHashArray));
+
+// xss protection header
+header("X-XSS-Protection: 1; mode=block");
+
+// disallow my site in an iframe
+header("X-Frame-Options: DENY");
+
+// secure session cookie
+/* I don't use sessions on this site so this would be pointless
+ * but I'll leave this here for completeness
+
+// http://stackoverflow.com/a/22221991/806777
+// **PREVENTING SESSION HIJACKING**
+// Prevents javascript XSS attacks aimed to steal the session ID
+ini_set('session.cookie_httponly', 1);
+
+// **PREVENTING SESSION FIXATION**
+// Session ID cannot be passed through URLs
+ini_set('session.use_only_cookies', 1);
+
+// Uses a secure connection (HTTPS) if possible
+ini_set('session.cookie_secure', 1);
+
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
@@ -123,9 +180,9 @@ header("Content-Security-Policy: ".cspHashes("https:", $cspHashArray));
 		}
 	</style>
 	<![endif]-->
-	<script src="js/modernizr.custom.43220.js" type="text/javascript"></script>
+	<script src="js/modernizr.custom.43220.js" type="text/javascript" nonce="<?= $nonces["modernizr"] ?>"></script>
 <!-- Hotjar Tracking Code for tony.brix.ninja -->
-<script>
+<script nonce="<?= $nonces["hotjar"] ?>">
 		(function(h,o,t,j,a,r){
 				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments);};
 				h._hjSettings={hjid:56766,hjsv:5};
@@ -136,7 +193,7 @@ header("Content-Security-Policy: ".cspHashes("https:", $cspHashArray));
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 <!--<![endif]-->
-<script>
+<script nonce="<?= $nonces["google analytics"] ?>">
 	window._gaq = [['_setAccount','UA-33500524-1'],['_trackPageview'],['_trackPageLoadTime']];
 	Modernizr.load({
 		load: '//www.google-analytics.com/ga.js'
@@ -144,7 +201,7 @@ header("Content-Security-Policy: ".cspHashes("https:", $cspHashArray));
 </script>
 
 <!-- start Mixpanel -->
-<script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+<script nonce="<?= $nonces["mixpanel"] ?>">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
 0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
 for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
 mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
@@ -192,15 +249,15 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 
 	<!--[if gte IE 7]><!-->
 
-	<script src="js/jquery.1.7.2.min.js" type="text/javascript"></script>
-	<script src="js/window/jquery.window.js" type="text/javascript"></script>
-	<script src="js/jquery.canvas.js" type="text/javascript"></script>
-	<script src="js/jquery.spellout.js" type="text/javascript"></script>
-	<script src="js/jquery-outline-1.5.js" type="text/javascript"></script>
-	<script src="js/json.js" type="text/javascript"></script>
-	<script src="js/jquery.store.js" type="text/javascript"></script>
-	<script src="js/minesweeper/jquery.minesweeper.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript"></script>
+	<script src="js/jquery.1.7.2.min.js" nonce="<?= $nonces["js/jquery.1.7.2.min.js"] ?>"></script>
+	<script src="js/window/jquery.window.js" nonce="<?= $nonces["js/window/jquery.window.js"] ?>"></script>
+	<script src="js/jquery.canvas.js" nonce="<?= $nonces["js/jquery.canvas.js"] ?>"></script>
+	<script src="js/jquery.spellout.js" nonce="<?= $nonces["js/jquery.spellout.js"] ?>"></script>
+	<script src="js/jquery-outline-1.5.js" nonce="<?= $nonces["js/jquery-outline-1.5.js"] ?>"></script>
+	<script src="js/json.js" nonce="<?= $nonces["js/json.js"] ?>"></script>
+	<script src="js/jquery.store.js" nonce="<?= $nonces["js/jquery.store.js"] ?>"></script>
+	<script src="js/minesweeper/jquery.minesweeper.js" nonce="<?= $nonces["js/minesweeper/jquery.minesweeper.js"] ?>"></script>
+	<script src="js/script.js" nonce="<?= $nonces["js/script.js"] ?>"></script>
 
 	<div id="loadingimages">
 		<div id="tonysimgs">

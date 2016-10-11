@@ -71,10 +71,9 @@ $(function () {
 			"became my favorite game. Ever since then I have been intrigued by computers\n" +
 			"and programming languages.\n" +
 			"\n" +
-			"There are 35 languages in which I have written at least one program. My\n" +
-			"favorite languages are PHP and C# with Java coming in a close third because\n" +
-			"of Android. I continue to learn more every day and keep up with today’s\n" +
-			"advancing technologies.\n" +
+			"There are about 40 languages in which I have written at least one program. My\n" +
+			"favorite languages are Javascript, PHP and C#. I continue to learn more every\n" +
+			"day and keep up with today’s advancing technologies.\n" +
 			"\n" +
 			"I started my own computer repair business in high school, mostly working for\n" +
 			"family members and friends. Also in high school I started freelance\n" +
@@ -93,7 +92,7 @@ $(function () {
 			"\n" +
 			"<span class='resume-header'>Technical Skills</span>\n" +
 			"\n" +
-			"Languages:  Assembly, ASP, ASP.NET, TI Basic, BF, C, C#, C++, ColdFusion, Dart, DB2, Flash, Go, HTML, Java, JavaScript, JSP, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Regular Expressions, Ruby, Rails, SQL Server 2008, SQLite, Swift, TypeScript, VB6, VB.NET, VHDL, WML, XML\n" +
+			"Languages:  Assembly, ASP, ASP.NET, BF, C, C#, C++, CoffeeScript, ColdFusion, Dart, Flash, HTML, Java, JavaScript, JSP, JSX, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Rails, React, Regular Expressions, Ruby, Rust, SQL Server 2008, SQLite, TI Basic, TypeScript, VB6, VB.NET, VHDL, WML, XML\n" +
 			"\n" +
 			"Operating Systems: Windows, Mac OS X, iPhone OS, Android OS, Ubuntu, Knoppix, Fedora\n" +
 			"\n" +
