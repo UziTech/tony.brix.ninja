@@ -219,7 +219,7 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div data-img="images/resume.png" id="resume" class="desktop shortcut"><span class="title">Resume</span></div>
 		<div id="resumecontent"></div>
 		<div data-href="mailto:Tony@Brix.ninja" data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
-		<!--div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div-->
+		<div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div>
 		<div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div>
 		<div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div>
 		<div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
@@ -261,43 +261,43 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 
 	<div id="loadingimages">
 		<div id="tonysimgs">
-			<img src='images/tony/Tony1.jpg' data-width='960' data-height='540' alt="Tony Brix" />
-			<img src='images/tony/Tony2.jpg' data-width='960' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony3.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony4.jpg' data-width='540' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony5.jpg' data-width='528' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony6.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony7.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony8.jpg' data-width='819' data-height='505' alt="Tony Brix" />
-			<img src='images/tony/Tony9.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony10.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony11.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony12.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony13.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony14.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony15.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony16.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony17.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony18.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony19.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony20.jpg' data-width='528' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony21.jpg' data-width='960' data-height='632' alt="Tony Brix" />
-			<img src='images/tony/Tony22.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony23.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony24.jpg' data-width='852' data-height='639' alt="Tony Brix" />
-			<img src='images/tony/Tony25.jpg' data-width='429' data-height='340' alt="Tony Brix" />
-			<img src='images/tony/Tony26.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony27.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony28.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony29.jpg' data-width='720' data-height='960' alt="Tony Brix" />
-			<img src='images/tony/Tony30.jpg' data-width='960' data-height='540' alt="Tony Brix" />
-			<img src='images/tony/Tony31.jpg' data-width='960' data-height='540' alt="Tony Brix" />
-			<img src='images/tony/Tony32.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony33.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony34.jpg' data-width='960' data-height='540' alt="Tony Brix" />
-			<img src='images/tony/Tony35.jpg' data-width='960' data-height='834' alt="Tony Brix" />
-			<img src='images/tony/Tony36.jpg' data-width='960' data-height='720' alt="Tony Brix" />
-			<img src='images/tony/Tony37.jpg' data-width='960' data-height='640' alt="Tony Brix" />
+			<img src="images/tony/Tony1.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="images/tony/Tony2.jpg" data-width="960" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony3.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony4.jpg" data-width="540" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony5.jpg" data-width="528" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony6.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony7.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony8.jpg" data-width="819" data-height="505" alt="Tony Brix" />
+			<img src="images/tony/Tony9.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony10.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony11.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony12.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony13.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony14.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony15.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony16.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony17.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony18.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony19.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony20.jpg" data-width="528" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony21.jpg" data-width="960" data-height="632" alt="Tony Brix" />
+			<img src="images/tony/Tony22.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony23.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony24.jpg" data-width="852" data-height="639" alt="Tony Brix" />
+			<img src="images/tony/Tony25.jpg" data-width="429" data-height="340" alt="Tony Brix" />
+			<img src="images/tony/Tony26.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony27.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony28.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony29.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="images/tony/Tony30.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="images/tony/Tony31.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="images/tony/Tony32.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony33.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony34.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="images/tony/Tony35.jpg" data-width="960" data-height="834" alt="Tony Brix" />
+			<img src="images/tony/Tony36.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="images/tony/Tony37.jpg" data-width="960" data-height="640" alt="Tony Brix" />
 		</div>
 	</div>
 </body>
