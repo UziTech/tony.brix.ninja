@@ -30,6 +30,7 @@ $nonces = [
 	"js/json.js" => mt_rand(),
 	"js/jquery.store.js" => mt_rand(),
 	"js/minesweeper/jquery.minesweeper.js" => mt_rand(),
+	"js/tiny_mce/jquery.tinymce.js" => mt_rand(),
 	"js/script.js" => mt_rand(),
 ];
 
@@ -65,6 +66,7 @@ $cspHashArray = [
 		"'nonce-{$nonces["js/json.js"]}'",
 		"'nonce-{$nonces["js/jquery.store.js"]}'",
 		"'nonce-{$nonces["js/minesweeper/jquery.minesweeper.js"]}'",
+		"'nonce-{$nonces["js/tiny_mce/jquery.tinymce.js"]}'",
 		"'nonce-{$nonces["js/script.js"]}'",
 	],
 	"connect-src" => [
@@ -218,8 +220,8 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div id="aboutcontent" tabindex="0"></div>
 		<div data-img="images/resume.png" id="resume" class="desktop shortcut"><span class="title">Resume</span></div>
 		<div id="resumecontent"></div>
-		<div data-href="mailto:Tony@Brix.ninja" data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
-		<div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div>
+		<div data-href="mailto:tony@brix.ninja" data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
+		<!--div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div-->
 		<div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div>
 		<div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div>
 		<div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
@@ -250,6 +252,7 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 	<!--[if gte IE 7]><!-->
 
 	<script src="js/jquery.1.7.2.min.js" nonce="<?= $nonces["js/jquery.1.7.2.min.js"] ?>"></script>
+	<script src="js/tiny_mce/jquery.tinymce.js" nonce="<?= $nonces["js/tiny_mce/jquery.tinymce.js"] ?>"></script>
 	<script src="js/window/jquery.window.js" nonce="<?= $nonces["js/window/jquery.window.js"] ?>"></script>
 	<script src="js/jquery.canvas.js" nonce="<?= $nonces["js/jquery.canvas.js"] ?>"></script>
 	<script src="js/jquery.spellout.js" nonce="<?= $nonces["js/jquery.spellout.js"] ?>"></script>
