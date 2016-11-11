@@ -45,6 +45,8 @@ $cspHashArray = [
 		"https:",
 		// 'unsafe-inline' is for backwards compatibility
 		"'unsafe-inline'",
+		// 'unsafe-eval' is for tinymce
+		"'unsafe-eval'",
 		"'strict-dynamic'",
 		//
 		// modernizr
@@ -220,8 +222,8 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div id="aboutcontent" tabindex="0"></div>
 		<div data-img="images/resume.png" id="resume" class="desktop shortcut"><span class="title">Resume</span></div>
 		<div id="resumecontent"></div>
-		<div data-href="mailto:tony@brix.ninja" data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
-		<!--div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div-->
+		<div data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
+		<div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div>
 		<div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div>
 		<div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div>
 		<div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>

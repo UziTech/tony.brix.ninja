@@ -24,6 +24,9 @@ handlers:
 - url: /resume\.php
   script: resume.php
 
+- url: /sendemail\.php
+  script: sendemail.php
+
 - url: /randompicture\.php
   script: randompicture.php
 
