@@ -239,9 +239,15 @@
 						switch (e.which) {
 							case 1:
 								data.left = true;
+								if (e.ctrlKey) {
+									data.right = true;
+								}
 								break;
 							case 3:
 								data.right = true;
+								if (e.ctrlKey) {
+									data.left = true;
+								}
 								break;
 							default:
 								// do nothing
