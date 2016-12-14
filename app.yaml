@@ -18,16 +18,22 @@ handlers:
 - url: /images
   static_dir: images
 
-- url: /about\.php
+- url: /about(\.php)?
   script: about.php
 
-- url: /resume\.php
+- url: /resume(\.php)?
   script: resume.php
 
-- url: /sendemail\.php
+- url: /privacypolicy(\.php)?
+  script: privacypolicy.php
+
+- url: /termsofuse(\.php)?
+  script: termsofuse.php
+
+- url: /sendemail(\.php)?
   script: sendemail.php
 
-- url: /randompicture\.php
+- url: /randompicture(\.php)?
   script: randompicture.php
 
 - url: .*
