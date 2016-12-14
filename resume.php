@@ -4,24 +4,20 @@
 <title>Tony Brix: Resume</title>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no">
-  <meta name="viewport" content="width=620">
+  <meta name="viewport" content="width=device-width">
 <style>
 body {
   font-family: monospace;
-  /*
-  color: #fff;
-  background-color: #000;
-  */
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 </style>
 </head>
 <body>
 <div>Anthony Brix</div>
-<div><a href="mailto:tbrix13@uzitech.com">TBrix13@UziTech.com</a></div>
+<div><a href="mailto:tony@brix.ninja">Tony@Brix.ninja</a></div>
 <div><a href="tel:3202491820">(320) 249-1820</a></div>
 
 <h2>Technical Skills</h2>
