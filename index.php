@@ -226,8 +226,8 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div>
 		<div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div>
 		<div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div>
-		<div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
-		<div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div>
+		<!-- <div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
+		<div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div> -->
 		<div data-href="https://blog.uzitech.com" data-img="images/blog.png" id="blog" class="shortcut"><span class="title">Blog</span></div>
 		<div data-href="https://facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
 		<div data-href="https://m.me/tbrix13" data-img="images/fmessenger.png" id="fmessenger" class="shortcut"><span class="title">Facebook Messenger</span></div>
