@@ -9,7 +9,7 @@ var windowWidth = $(window).width();
 var iconsWide = Math.floor(windowWidth / iconWidth);
 var iconsHigh = Math.floor(windowHeight / iconHeight);
 
-console.log("%cBe Warned!\n%cMost of the source code on this site is over 10 years old.\n%cScan through at your own risk.", "color: #f63; font-size: 30px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #f93; font-weight: bold; font-family: serif;", "color: #333; font-size: 16px; font-family: monospace;", "color: #666; font-size: 10px; font-family: sans-serif; font-weight: bold;");
+console.log("\n\n%c!! Be Warned !!\n%cMost of the source code on this site is over 10 years old.\n\n%cContinue at your own risk.\n\n\n\n", "color: #f63; font-size: 30px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #f52; font-weight: bold; font-family: serif;", "color: #336; font-size: 16px; font-family: monospace;", "color: #f99; font-size: 10px; font-family: sans-serif; font-weight: bold;");
 $(function () {
 	$.mobile = $(window).width() < 800;
 	(function () {
