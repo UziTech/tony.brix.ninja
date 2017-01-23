@@ -232,7 +232,7 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div data-href="https://facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
 		<div data-href="https://m.me/tbrix13" data-img="images/fmessenger.png" id="fmessenger" class="shortcut"><span class="title">Facebook Messenger</span></div>
 		<div data-href="https://twitter.com/tonybrix" data-img="images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
-		<div data-href="https://gplus.to/tbrix13" data-img="images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
+		<div data-href="https://plus.google.com/+TonyBrix" data-img="images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
 		<div data-href="https://www.linkedin.com/pub/tony-brix/37/436/98a/" data-img="images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
 		<div data-img="images/minesweeper.png" id="minesweeper" class="desktop shortcut"><span class="title">Mine Sweeper</span></div>
 		<div id="minesweepercontent"><canvas id="minesweepercanvas" tabindex="0">Your browser is not compatible.Please update your browser.</canvas></div>
