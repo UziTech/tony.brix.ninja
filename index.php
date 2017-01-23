@@ -11,78 +11,72 @@ function cspHashes($hashArray) {
 	$csp = [];
 
 	foreach ($hashArray as $src => $arr) {
-		$csp[] = $src . " " . implode(" ", $arr);
+		$csp[] = $src . " " . implode(" ", array_filter($arr));
 	}
 
 	return implode("; ", $csp);
 }
 
-$nonces = [
-	"modernizr" => mt_rand(),
-	"hotjar" => mt_rand(),
-	"google analytics" => mt_rand(),
-	"mixpanel" => mt_rand(),
-	"js/jquery.1.7.2.min.js" => mt_rand(),
-	"js/window/jquery.window.js" => mt_rand(),
-	"js/jquery.canvas.js" => mt_rand(),
-	"js/jquery.spellout.js" => mt_rand(),
-	"js/jquery-outline-1.5.js" => mt_rand(),
-	"js/json.js" => mt_rand(),
-	"js/jquery.store.js" => mt_rand(),
-	"js/minesweeper/jquery.minesweeper.js" => mt_rand(),
-	"js/tiny_mce/jquery.tinymce.js" => mt_rand(),
-	"js/script.js" => mt_rand(),
+$isLocalhost = ($_SERVER["SERVER_NAME"] === "localhost");
+
+$scripts = [
+	"modernizr",
+	"hotjar",
+	"google analytics",
+	"mixpanel",
+	"js/jquery.1.7.2.min.js",
+	"js/window/jquery.window.js",
+	"js/jquery.canvas.js",
+	"js/jquery.spellout.js",
+	"js/jquery-outline-1.5.js",
+	"js/json.js",
+	"js/jquery.store.js",
+	"js/minesweeper/jquery.minesweeper.js",
+	"js/tiny_mce/jquery.tinymce.js",
+	"js/script.js",
 ];
+
+$rands = array_map(function () {
+	return mt_rand();
+}, $scripts);
+
+$nonces = array_combine($scripts, $rands);
 
 $cspHashArray = [
 	"default-src" => ["https:"],
 	"style-src" => [
-		"https:",
+		($isLocalhost ? "http:" : "https:"),
 		// allow inline styles set by javascript
 		"'unsafe-inline'",
 	],
 	"script-src" => [
-		"https:",
+		($isLocalhost ? "http:" : "https:"),
 		// 'unsafe-inline' is for backwards compatibility
 		"'unsafe-inline'",
 		// 'unsafe-eval' is for tinymce
 		"'unsafe-eval'",
 		"'strict-dynamic'",
 		//
-		// modernizr
-		"'nonce-{$nonces["modernizr"]}'",
-		// hotjar
-		"'nonce-{$nonces["hotjar"]}'",
-		//"'sha256-+aYsgX7b6iAgCjd9Ox5MJjYLuUdITdUGWmGWXDam/k0='",
-		// google analytics
-		"'nonce-{$nonces["google analytics"]}'",
-		//"'sha256-WxOyqsSGFt+w2tx+sUfyVLkkjqR94wvn8Mlu92xNx68='",
-		// mixpanel
-		"'nonce-{$nonces["mixpanel"]}'",
-		//"'sha256-kYebbjIGLF/wTaeDHPdj+tlcqhNDqiXSGup7UlDgexI='",
-		"'nonce-{$nonces["js/jquery.1.7.2.min.js"]}'",
-		"'nonce-{$nonces["js/window/jquery.window.js"]}'",
-		"'nonce-{$nonces["js/jquery.canvas.js"]}'",
-		"'nonce-{$nonces["js/jquery.spellout.js"]}'",
-		"'nonce-{$nonces["js/jquery-outline-1.5.js"]}'",
-		"'nonce-{$nonces["js/json.js"]}'",
-		"'nonce-{$nonces["js/jquery.store.js"]}'",
-		"'nonce-{$nonces["js/minesweeper/jquery.minesweeper.js"]}'",
-		"'nonce-{$nonces["js/tiny_mce/jquery.tinymce.js"]}'",
-		"'nonce-{$nonces["js/script.js"]}'",
+		// I add nonces at end of $cspHashArray
 	],
 	"connect-src" => [
-		"https:",
+		($isLocalhost ? "http:" : "https:"),
 		// hotjar
-		"wss:",
+		($isLocalhost ? "ws:" : "wss:"),
 	],
 	"img-src" => [
-		"https:",
+		($isLocalhost ? "http:" : "https:"),
 		// allow data: images
 		"data:",
 	],
 	"object-src" => ["'none'"],
 ];
+
+// script-src nonces
+foreach ($nonces as $nonce) {
+	$cspHashArray["script-src"][] = "'nonce-{$nonce}'";
+}
+
 header("Content-Security-Policy: ".cspHashes($cspHashArray));
 
 // xss protection header
