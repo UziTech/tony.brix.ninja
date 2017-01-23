@@ -9,13 +9,7 @@ var windowWidth = $(window).width();
 var iconsWide = Math.floor(windowWidth / iconWidth);
 var iconsHigh = Math.floor(windowHeight / iconHeight);
 
-// if (!/^https:\/\/tony\.brix\.ninja\/$/.test(location.href)) {
-// 	if (window.history && window.history.replaceState) {
-// 		history.replaceState("", document.title, "https://tony.brix.ninja/");
-// 	} else {
-// 		location.replace("https://tony.brix.ninja/");
-// 	}
-// }
+console.log("%cBe Warned!\n%cMost of the source code on this site is over 10 years old.\n%cScan through at your own risk.", "color: #f63; font-size: 30px; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #f93; font-weight: bold; font-family: serif;", "color: #333; font-size: 16px; font-family: monospace;", "color: #666; font-size: 10px; font-family: sans-serif; font-weight: bold;");
 $(function () {
 	$.mobile = $(window).width() < 800;
 	(function () {
