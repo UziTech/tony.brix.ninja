@@ -1,7 +1,6 @@
 <?php
 
-// I'm trying to use the best security preactices here
-// even though this is only a pamphlet site
+// I'm trying to use the best security preactices here, mainly as a reference for other projects
 
 // CSP
 function cspHashes($hashArray) {
@@ -55,7 +54,8 @@ $cspHashArray = [
 		"'unsafe-inline'",
 		// 'unsafe-eval' is for tinymce
 		"'unsafe-eval'",
-		"'strict-dynamic'",
+		// strict-dynamic and nonces are commented out because they do not allow dynamic inline that tinymce requires
+		// "'strict-dynamic'",
 		//
 		// I add nonces at end of $cspHashArray
 	],
@@ -73,9 +73,9 @@ $cspHashArray = [
 ];
 
 // script-src nonces
-foreach ($nonces as $nonce) {
-	$cspHashArray["script-src"][] = "'nonce-{$nonce}'";
-}
+// foreach ($nonces as $nonce) {
+// 	$cspHashArray["script-src"][] = "'nonce-{$nonce}'";
+// }
 
 header("Content-Security-Policy: ".cspHashes($cspHashArray));
 
