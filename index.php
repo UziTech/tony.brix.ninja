@@ -246,6 +246,7 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div id="github" data-href="https://github.com/uzitech" data-img="images/github.png" class="shortcut"><span class="title">GitHub</span></div>
 		<div id="gists" data-href="https://gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
 		<div id="freecodecamp" data-href="https://freecodecamp.com/uzitech" data-img="images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
+		<div id="skypebot" data-href="https://join.skype.com/bot/8316b189-fc92-4de3-b624-653d2eb5bc2d" data-img="images/skype.png" class="shortcut"><span class="title">Skype Bot</span></div>
 		<div data-href="tel:3202491820" data-img="images/phone.png" id="phone" class="mobile shortcut"></div>
 		<div data-href="sms:3202491820" data-img="images/sms.png" id="sms" class="mobile shortcut"></div>
 		<div data-href="mailto:Tony@Brix.ninja" data-img="images/gmail.png" id="gmail" class="mobile shortcut"></div>
