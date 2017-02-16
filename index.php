@@ -112,10 +112,10 @@ ini_set('session.cookie_secure', 1);
 	<meta name="viewport" content="width=device-width, user-scalable=0" />
 	<meta name="description" content="Learn about Tony Brix. Maybe you'll find something interesting." />
 	<meta name="author" content="Tony Brix" />
-	<link rel="apple-touch-icon" href="images/tony.png" />
-	<link rel="stylesheet" href="css/defaults.css "/>
-	<link rel="stylesheet" href="js/window/window.css" />
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="apple-touch-icon" href="/images/tony.png" />
+	<link rel="stylesheet" href="/css/defaults.css "/>
+	<link rel="stylesheet" href="/js/window/window.css" />
+	<link rel="stylesheet" href="/css/style.css" />
 	<!--[if IE 7]>
 	<style type="text/css">
 		.wdw-window>tbody>.titlebarmiddle>.center{
@@ -178,7 +178,7 @@ ini_set('session.cookie_secure', 1);
 		}
 	</style>
 	<![endif]-->
-	<script src="js/modernizr.custom.43220.js" type="text/javascript" nonce="<?= $nonces["modernizr"] ?>"></script>
+	<script src="/js/modernizr.custom.43220.js" type="text/javascript" nonce="<?= $nonces["modernizr"] ?>"></script>
 <!-- Hotjar Tracking Code for tony.brix.ninja -->
 <script nonce="<?= $nonces["hotjar"] ?>">
 		(function(h,o,t,j,a,r){
@@ -212,94 +212,94 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<p id="contact-info">Tony Brix<br />(320) 249-1820<br />Tony@Brix.ninja</p>
 	</div>
 	<div id="icons">
-		<div data-img="images/about.png" id="about" class="desktop shortcut"><span class="title">About</span></div>
+		<div data-img="/images/about.png" id="about" class="desktop shortcut"><span class="title">About</span></div>
 		<div id="aboutcontent" tabindex="0"></div>
-		<div data-img="images/resume.png" id="resume" class="desktop shortcut"><span class="title">Resume</span></div>
+		<div data-img="/images/resume.png" id="resume" class="desktop shortcut"><span class="title">Resume</span></div>
 		<div id="resumecontent"></div>
-		<div data-img="images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
+		<div data-img="/images/email.png" id="email" class="desktop shortcut"><span class="title">Send Email</span></div>
 		<div id="emailcontent"><textarea class="tinymce" id="emailbody" style="height:1px;width:1px;"></textarea><div class="overlay"></div></div>
-		<div data-href="/about.php" data-img="images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div>
-		<div data-href="/resume.php" data-img="images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div>
-		<!-- <div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
-		<div data-href="https://uzitech.com/files.php" data-img="images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div> -->
-		<div data-href="https://blog.uzitech.com" data-img="images/blog.png" id="blog" class="shortcut"><span class="title">Blog</span></div>
-		<div data-href="https://facebook.com/tbrix13" data-img="images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
-		<div data-href="https://m.me/tbrix13" data-img="images/fmessenger.png" id="fmessenger" class="shortcut"><span class="title">Facebook Messenger</span></div>
-		<div data-href="https://twitter.com/tonybrix" data-img="images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
-		<div data-href="https://plus.google.com/+TonyBrix" data-img="images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
-		<div data-href="https://www.linkedin.com/in/tonybrix/" data-img="images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
-		<div data-img="images/minesweeper.png" id="minesweeper" class="desktop shortcut"><span class="title">Mine Sweeper</span></div>
+		<div data-href="/about.php" data-img="/images/info.png" id="mobileabout" class="mobile shortcut"><span class="title">About</span></div>
+		<div data-href="/resume.php" data-img="/images/resume.png" id="mobileresume" class="mobile shortcut"><span class="title">Resume</span></div>
+		<!-- <div data-href="https://uzitech.com/files.php" data-img="/images/portfolio.png" id="portfolio" class="desktop shortcut"><span class="title">Portfolio</span></div>
+		<div data-href="https://uzitech.com/files.php" data-img="/images/portfolio.png" id="mobileportfolio" class="mobile shortcut"><span class="title">Portfolio</span></div> -->
+		<div data-href="https://blog.uzitech.com" data-img="/images/blog.png" id="blog" class="shortcut"><span class="title">Blog</span></div>
+		<div data-href="https://facebook.com/tbrix13" data-img="/images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
+		<div data-href="https://m.me/tbrix13" data-img="/images/fmessenger.png" id="fmessenger" class="shortcut"><span class="title">Facebook Messenger</span></div>
+		<div data-href="https://twitter.com/tonybrix" data-img="/images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
+		<div data-href="https://plus.google.com/+TonyBrix" data-img="/images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
+		<div data-href="https://www.linkedin.com/in/tonybrix/" data-img="/images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
+		<div data-img="/images/minesweeper.png" id="minesweeper" class="desktop shortcut"><span class="title">Mine Sweeper</span></div>
 		<div id="minesweepercontent"><canvas id="minesweepercanvas" tabindex="0">Your browser is not compatible.Please update your browser.</canvas></div>
-		<!-- <div id="pwalg" data-img="images/pwalg.png" class="desktop shortcut"><span class="title">Password Algorithm</span></div> -->
+		<!-- <div id="pwalg" data-img="/images/pwalg.png" class="desktop shortcut"><span class="title">Password Algorithm</span></div> -->
 		<!-- <div id="pwalgcontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="https://uzitech.com/pwalg"></iframe></div> -->
-		<!-- <div id="mobilepwalg" data-href="https://uzitech.com/pwalg" data-img="images/pwalg.png" class="shortcut"><span class="title">Password Algorithm</span></div> -->
-		<!-- <div data-href="https://uzitech.com/pws" id="pws" data-img="images/pws.png" class="desktop shortcut"><span class="title">Password Keys</span></div> -->
+		<!-- <div id="mobilepwalg" data-href="https://uzitech.com/pwalg" data-img="/images/pwalg.png" class="shortcut"><span class="title">Password Algorithm</span></div> -->
+		<!-- <div data-href="https://uzitech.com/pws" id="pws" data-img="/images/pws.png" class="desktop shortcut"><span class="title">Password Keys</span></div> -->
 		<!-- <div id="pwscontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="//uzitech.com/pws"></iframe></div> -->
-		<!-- <div id="mobilepws" data-href="https://uzitech.com/pws" data-img="images/pws.png" class="mobile shortcut"><span class="title">Password Keys</span></div> -->
-		<div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
-		<div id="github" data-href="https://github.com/uzitech" data-img="images/github.png" class="shortcut"><span class="title">GitHub</span></div>
-		<div id="gists" data-href="https://gist.github.com/uzitech" data-img="images/gist.png" class="shortcut"><span class="title">Gists</span></div>
-		<div id="freecodecamp" data-href="https://freecodecamp.com/uzitech" data-img="images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
-		<div id="skypebot" data-href="https://join.skype.com/bot/8316b189-fc92-4de3-b624-653d2eb5bc2d" data-img="images/skypebot.png" class="shortcut"><span class="title">Skype Bot</span></div>
-		<div id="messengerbot" data-href="https://m.me/thetonybrix" data-img="images/fmessengerbot.png" class="shortcut"><span class="title">Messenger Bot</span></div>
-		<div id="twitterbot" data-href="https://twitter.com/tonybrixai" data-img="images/twitterbot.png" class="shortcut"><span class="title">Twitter Bot</span></div>
-		<div data-href="tel:3202491820" data-img="images/phone.png" id="phone" class="mobile shortcut"></div>
-		<div data-href="sms:3202491820" data-img="images/sms.png" id="sms" class="mobile shortcut"></div>
-		<div data-href="mailto:Tony@Brix.ninja" data-img="images/gmail.png" id="gmail" class="mobile shortcut"></div>
+		<!-- <div id="mobilepws" data-href="https://uzitech.com/pws" data-img="/images/pws.png" class="mobile shortcut"><span class="title">Password Keys</span></div> -->
+		<div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="/images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
+		<div id="github" data-href="https://github.com/uzitech" data-img="/images/github.png" class="shortcut"><span class="title">GitHub</span></div>
+		<div id="gists" data-href="https://gist.github.com/uzitech" data-img="/images/gist.png" class="shortcut"><span class="title">Gists</span></div>
+		<div id="freecodecamp" data-href="https://freecodecamp.com/uzitech" data-img="/images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
+		<div id="skypebot" data-href="https://join.skype.com/bot/8316b189-fc92-4de3-b624-653d2eb5bc2d" data-img="/images/skypebot.png" class="shortcut"><span class="title">Skype Bot</span></div>
+		<div id="messengerbot" data-href="https://m.me/thetonybrix" data-img="/images/fmessengerbot.png" class="shortcut"><span class="title">Messenger Bot</span></div>
+		<div id="twitterbot" data-href="https://twitter.com/tonybrixai" data-img="/images/twitterbot.png" class="shortcut"><span class="title">Twitter Bot</span></div>
+		<div data-href="tel:3202491820" data-img="/images/phone.png" id="phone" class="mobile shortcut"></div>
+		<div data-href="sms:3202491820" data-img="/images/sms.png" id="sms" class="mobile shortcut"></div>
+		<div data-href="mailto:Tony@Brix.ninja" data-img="/images/gmail.png" id="gmail" class="mobile shortcut"></div>
 	</div>
 
 	<!--[if gte IE 7]><!-->
 
-	<script src="js/jquery.1.7.2.min.js" nonce="<?= $nonces["js/jquery.1.7.2.min.js"] ?>"></script>
-	<script src="js/tiny_mce/jquery.tinymce.js" nonce="<?= $nonces["js/tiny_mce/jquery.tinymce.js"] ?>"></script>
-	<script src="js/window/jquery.window.js" nonce="<?= $nonces["js/window/jquery.window.js"] ?>"></script>
-	<script src="js/jquery.canvas.js" nonce="<?= $nonces["js/jquery.canvas.js"] ?>"></script>
-	<script src="js/jquery.spellout.js" nonce="<?= $nonces["js/jquery.spellout.js"] ?>"></script>
-	<script src="js/jquery-outline-1.5.js" nonce="<?= $nonces["js/jquery-outline-1.5.js"] ?>"></script>
-	<script src="js/json.js" nonce="<?= $nonces["js/json.js"] ?>"></script>
-	<script src="js/jquery.store.js" nonce="<?= $nonces["js/jquery.store.js"] ?>"></script>
-	<script src="js/minesweeper/jquery.minesweeper.js" nonce="<?= $nonces["js/minesweeper/jquery.minesweeper.js"] ?>"></script>
-	<script src="js/script.js" nonce="<?= $nonces["js/script.js"] ?>"></script>
+	<script src="/js/jquery.1.7.2.min.js" nonce="<?= $nonces["js/jquery.1.7.2.min.js"] ?>"></script>
+	<script src="/js/tiny_mce/jquery.tinymce.js" nonce="<?= $nonces["js/tiny_mce/jquery.tinymce.js"] ?>"></script>
+	<script src="/js/window/jquery.window.js" nonce="<?= $nonces["js/window/jquery.window.js"] ?>"></script>
+	<script src="/js/jquery.canvas.js" nonce="<?= $nonces["js/jquery.canvas.js"] ?>"></script>
+	<script src="/js/jquery.spellout.js" nonce="<?= $nonces["js/jquery.spellout.js"] ?>"></script>
+	<script src="/js/jquery-outline-1.5.js" nonce="<?= $nonces["js/jquery-outline-1.5.js"] ?>"></script>
+	<script src="/js/json.js" nonce="<?= $nonces["js/json.js"] ?>"></script>
+	<script src="/js/jquery.store.js" nonce="<?= $nonces["js/jquery.store.js"] ?>"></script>
+	<script src="/js/minesweeper/jquery.minesweeper.js" nonce="<?= $nonces["js/minesweeper/jquery.minesweeper.js"] ?>"></script>
+	<script src="/js/script.js" nonce="<?= $nonces["js/script.js"] ?>"></script>
 
 	<div id="loadingimages">
 		<div id="tonysimgs">
-			<img src="images/tony/Tony1.jpg" data-width="960" data-height="540" alt="Tony Brix" />
-			<img src="images/tony/Tony2.jpg" data-width="960" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony3.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony4.jpg" data-width="540" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony5.jpg" data-width="528" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony6.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony7.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony8.jpg" data-width="819" data-height="505" alt="Tony Brix" />
-			<img src="images/tony/Tony9.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony10.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony11.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony12.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony13.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony14.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony15.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony16.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony17.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony18.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony19.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony20.jpg" data-width="528" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony21.jpg" data-width="960" data-height="632" alt="Tony Brix" />
-			<img src="images/tony/Tony22.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony23.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony24.jpg" data-width="852" data-height="639" alt="Tony Brix" />
-			<img src="images/tony/Tony25.jpg" data-width="429" data-height="340" alt="Tony Brix" />
-			<img src="images/tony/Tony26.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony27.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony28.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony29.jpg" data-width="720" data-height="960" alt="Tony Brix" />
-			<img src="images/tony/Tony30.jpg" data-width="960" data-height="540" alt="Tony Brix" />
-			<img src="images/tony/Tony31.jpg" data-width="960" data-height="540" alt="Tony Brix" />
-			<img src="images/tony/Tony32.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony33.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony34.jpg" data-width="960" data-height="540" alt="Tony Brix" />
-			<img src="images/tony/Tony35.jpg" data-width="960" data-height="834" alt="Tony Brix" />
-			<img src="images/tony/Tony36.jpg" data-width="960" data-height="720" alt="Tony Brix" />
-			<img src="images/tony/Tony37.jpg" data-width="960" data-height="640" alt="Tony Brix" />
+			<img src="/images/tony/Tony1.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="/images/tony/Tony2.jpg" data-width="960" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony3.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony4.jpg" data-width="540" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony5.jpg" data-width="528" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony6.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony7.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony8.jpg" data-width="819" data-height="505" alt="Tony Brix" />
+			<img src="/images/tony/Tony9.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony10.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony11.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony12.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony13.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony14.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony15.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony16.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony17.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony18.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony19.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony20.jpg" data-width="528" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony21.jpg" data-width="960" data-height="632" alt="Tony Brix" />
+			<img src="/images/tony/Tony22.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony23.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony24.jpg" data-width="852" data-height="639" alt="Tony Brix" />
+			<img src="/images/tony/Tony25.jpg" data-width="429" data-height="340" alt="Tony Brix" />
+			<img src="/images/tony/Tony26.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony27.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony28.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony29.jpg" data-width="720" data-height="960" alt="Tony Brix" />
+			<img src="/images/tony/Tony30.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="/images/tony/Tony31.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="/images/tony/Tony32.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony33.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony34.jpg" data-width="960" data-height="540" alt="Tony Brix" />
+			<img src="/images/tony/Tony35.jpg" data-width="960" data-height="834" alt="Tony Brix" />
+			<img src="/images/tony/Tony36.jpg" data-width="960" data-height="720" alt="Tony Brix" />
+			<img src="/images/tony/Tony37.jpg" data-width="960" data-height="640" alt="Tony Brix" />
 		</div>
 	</div>
 </body>
