@@ -107,15 +107,15 @@ ini_set('session.cookie_secure', 1);
 <html lang="en-us">
 <head>
 	<title>Tony Brix</title>
-	<meta charset="utf-8"
-	<meta name="format-detection" content="telephone=no"/>
-	<meta name="viewport" content="width=device-width, user-scalable=0"/>
-	<meta name="description" content="Learn about Tony Brix. Maybe you'll find something interesting."/>
-	<meta name="author" content="Tony Brix"/>
-	<link rel="apple-touch-icon" href="images/tony.png"/>
-	<link rel="stylesheet" href="css/defaults.css"/>
-	<link rel="stylesheet" href="js/window/window.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, user-scalable=0" />
+	<meta name="description" content="Learn about Tony Brix. Maybe you'll find something interesting." />
+	<meta name="author" content="Tony Brix" />
+	<link rel="apple-touch-icon" href="images/tony.png" />
+	<link rel="stylesheet" href="css/defaults.css "/>
+	<link rel="stylesheet" href="js/window/window.css" />
+	<link rel="stylesheet" href="css/style.css" />
 	<!--[if IE 7]>
 	<style type="text/css">
 		.wdw-window>tbody>.titlebarmiddle>.center{
