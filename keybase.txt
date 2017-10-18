@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/tonybrix
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://Tony.Brix.ninja
+  * I am tonybrix (https://keybase.io/tonybrix) on keybase.
+  * I have a public key ASD6dSxrTMJ376WrWndun9IJPhd9tZN3HxCiUd8jPDVLWAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120123cc8e81d9b5031c5822f8a103dca162bb930d5bc53f009f7dd2ed701e7bcaf0a",
+      "host": "keybase.io",
+      "kid": "0120fa752c6b4cc277efa5ab5a776e9fd2093e177db593771f10a251df233c354b580a",
+      "uid": "78f464038af7742866464010fad5c419",
+      "username": "tonybrix"
+    },
+    "merkle_root": {
+      "ctime": 1508336092,
+      "hash": "3dd164a6e08f5a2230243bf481ea83be8ad7847132382b22082ce70409a85581c4881ce7c917b8e1099a87bd30b7886677aff1e739c147a1fcadd17a5b79094f",
+      "hash_meta": "a18da0ede00d77a5adbf55735baa28076d4362e6d05525d39a454d9083031509",
+      "seqno": 1597132
+    },
+    "service": {
+      "hostname": "Tony.Brix.ninja",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1508336103,
+  "expire_in": 504576000,
+  "prev": "fdb29bc3ae4af9af2f6678671ad37986d39c07628bd672320de287c42061055a",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+nUsa0zCd++lq1p3bp/SCT4XfbWTdx8QolHfIzw1S1gKp3BheWxvYWTFA0h7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMTIzY2M4ZTgxZDliNTAzMWM1ODIyZjhhMTAzZGNhMTYyYmI5MzBkNWJjNTNmMDA5ZjdkZDJlZDcwMWU3YmNhZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmE3NTJjNmI0Y2MyNzdlZmE1YWI1YTc3NmU5ZmQyMDkzZTE3N2RiNTkzNzcxZjEwYTI1MWRmMjMzYzM1NGI1ODBhIiwidWlkIjoiNzhmNDY0MDM4YWY3NzQyODY2NDY0MDEwZmFkNWM0MTkiLCJ1c2VybmFtZSI6InRvbnlicml4In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA4MzM2MDkyLCJoYXNoIjoiM2RkMTY0YTZlMDhmNWEyMjMwMjQzYmY0ODFlYTgzYmU4YWQ3ODQ3MTMyMzgyYjIyMDgyY2U3MDQwOWE4NTU4MWM0ODgxY2U3YzkxN2I4ZTEwOTlhODdiZDMwYjc4ODY2NzdhZmYxZTczOWMxNDdhMWZjYWRkMTdhNWI3OTA5NGYiLCJoYXNoX21ldGEiOiJhMThkYTBlZGUwMGQ3N2E1YWRiZjU1NzM1YmFhMjgwNzZkNDM2MmU2ZDA1NTI1ZDM5YTQ1NGQ5MDgzMDMxNTA5Iiwic2Vxbm8iOjE1OTcxMzJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiVG9ueS5Ccml4Lm5pbmphIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzMifSwiY3RpbWUiOjE1MDgzMzYxMDMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiZmRiMjliYzNhZTRhZjlhZjJmNjY3ODY3MWFkMzc5ODZkMzljMDc2MjhiZDY3MjMyMGRlMjg3YzQyMDYxMDU1YSIsInNlcW5vIjoxNCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDKcFuVncv/J+ROnzV0s8P5LqyaC+upwhFN6KamrVKU/eHbGi4Ds/r4Nd6JDTtFgmM4FjHQK/epJF4KpK0nV4cEqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgfX2nFI2XPIo/I8mCxc927judIQ4OhS3YviTZwifNuKejdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tonybrix
+
+==================================================================
