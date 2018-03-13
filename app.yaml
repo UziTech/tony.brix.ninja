@@ -2,41 +2,61 @@ runtime: php55
 api_version: 1
 threadsafe: yes
 
+default_expiration: "30d"
+manual_scaling:
+  instances: 1
+
 handlers:
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
+  secure: always
 
 - url: /keybase\.txt
   static_files: keybase.txt
   upload: keybase\.txt
+  secure: always
 
 - url: /css
   static_dir: css
+  secure: always
 
 - url: /js
   static_dir: js
+  secure: always
 
 - url: /images
   static_dir: images
+  secure: always
 
 - url: /about(\.php)?
   script: about.php
+  secure: always
 
 - url: /resume(\.php)?
   script: resume.php
+  secure: always
 
 - url: /privacypolicy(\.php)?
   script: privacypolicy.php
+  secure: always
 
 - url: /termsofuse(\.php)?
   script: termsofuse.php
+  secure: always
 
 - url: /sendemail(\.php)?
   script: sendemail.php
+  secure: always
 
 - url: /randompicture(\.php)?
   script: randompicture.php
+  secure: always
+
+- url: /wp.*
+  script: termsofuse.php
+  login: required
 
 - url: .*
   script: index.php
+  secure: always
