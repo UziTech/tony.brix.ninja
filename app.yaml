@@ -3,8 +3,6 @@ api_version: 1
 threadsafe: yes
 
 default_expiration: "30d"
-manual_scaling:
-  instances: 1
 
 handlers:
 - url: /favicon\.ico
