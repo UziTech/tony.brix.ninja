@@ -236,16 +236,17 @@
 						e.preventDefault();
 						var $this = $(this);
 						var data = $this.focus().data("minesweeper");
+						data.ctrlclick = e.ctrlKey;
 						switch (e.which) {
 							case 1:
 								data.left = true;
-								if (e.ctrlKey) {
+								if (data.ctrlclick) {
 									data.right = true;
 								}
 								break;
 							case 3:
 								data.right = true;
-								if (e.ctrlKey) {
+								if (data.ctrlclick) {
 									data.left = true;
 								}
 								break;
@@ -841,9 +842,15 @@
 						switch (e.which) {
 							case 1:
 								data.left = false;
+								if (data.ctrlclick) {
+									data.right = false;
+								}
 								break;
 							case 3:
 								data.right = false;
+								if (data.ctrlclick) {
+									data.left = false;
+								}
 								break;
 							default:
 								// do nothing
