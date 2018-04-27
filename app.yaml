@@ -51,6 +51,10 @@ handlers:
   script: randompicture.php
   secure: always
 
+- url: /daily
+  script: daily.php
+  secure: always
+
 - url: /wp.*
   script: termsofuse.php
   login: required

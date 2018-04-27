@@ -1,0 +1,4 @@
+cron:
+- description: "daily something"
+  url: /daily
+  schedule: every 24 hours
