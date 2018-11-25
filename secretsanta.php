@@ -3,7 +3,8 @@ if (isset($_GET["email"])) {
 	$names = json_decode($_POST["names"]);
 	foreach ($names as $key => $value) {
 		$from = "Secret Santa <tbrix13@gmail.com>";
-		$to = $value;
+		$to = $value[1];
+		$body = str_replace("%p", $value[0], $_POST["body"]);
 		$body = str_replace("%n", $key, $_POST["body"]);
 		$subject = "Secret Santa";
 
@@ -56,7 +57,7 @@ if (isset($_GET["email"])) {
 		</select><br />
 		<select id="ruleop3"></select><br />
 		<button type="button" id="addRule">Add Rule</button><br />
-		<label for="message">Message: (%n = person they have)</label><br />
+		<label for="message">Message: (%n = person they have, %p = their name)</label><br />
 		<textarea id="message" autocapitalize="off" placeholder="%p is the secret santa for %n. The limit is around $20.">%p is the secret santa for %n. The limit is around $20.</textarea><br />
 		<label for="secret">Secret</label>
 		<input type="checkbox" id="secret" /><br />

@@ -83,10 +83,10 @@ $(function () {
 
 		if ($("#secret").prop("checked")) {
 		// //send emails
-			var obj = new Object();
-			obj[names[nameList[0]]] = emails[nameList[nameList.length - 1]];
+			var obj = {};
+			obj[names[nameList[0]]] = [nameList[nameList.length - 1], emails[nameList[nameList.length - 1]]];
 			for (var l = 1; l < nameList.length; l++) {
-				obj[names[nameList[l]]] = emails[nameList[l - 1]];
+				obj[names[nameList[l]]] = [nameList[l - 1], emails[nameList[l - 1]]];
 			}
 			$("<div id='loading' style='position:fixed; top:0; left:0; width:100%; height:100%; text-align:center; color:#ffffff; font-size:20px; background-color:rgba(0,0,0,.5);'>Loading...</div>").appendTo("body");
 			$.post("?email", {body: $("#message").val(), names: JSON.stringify(obj)}, function (data) {
