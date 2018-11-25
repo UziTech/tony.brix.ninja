@@ -4,8 +4,9 @@ if (isset($_GET["email"])) {
 	foreach ($names as $key => $value) {
 		$from = "Secret Santa <tbrix13@gmail.com>";
 		$to = $value[1];
-		$body = str_replace("%p", $value[0], $_POST["body"]);
-		$body = str_replace("%n", $key, $_POST["body"]);
+		$body = $_POST["body"];
+		$body = str_replace("%p", $value[0], $body);
+		$body = str_replace("%n", $key, $body);
 		$subject = "Secret Santa";
 
 		$headers = "From: {$from}\r\n";
