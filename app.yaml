@@ -47,6 +47,10 @@ handlers:
   script: sendemail.php
   secure: always
 
+- url: /secretsanta(\.php)?
+  script: secretsanta.php
+  secure: always
+
 - url: /randompicture(\.php)?
   script: randompicture.php
   secure: always
