@@ -123,19 +123,21 @@ $(function () {
 		}
 	});
 
-	for (var name in initialNames) {
-		var email = initialNames[name];
-		$("#name").val(name);
-		$("#email").val(email);
-		$("#addName").click();
-	}
+	if (location.search === "?init") {
+		for (var name in initialNames) {
+			var email = initialNames[name];
+			$("#name").val(name);
+			$("#email").val(email);
+			$("#addName").click();
+		}
 
-	for (var rule of initialRules) {
-		var rulesSplit = rule.split(",");
-		$("#ruleop1").val(rulesSplit[0]);
-		$("#ruleop2").val(rulesSplit[1]);
-		$("#ruleop3").val(rulesSplit[2]);
-		$("#addRule").click();
+		for (var rule of initialRules) {
+			var rulesSplit = rule.split(",");
+			$("#ruleop1").val(rulesSplit[0]);
+			$("#ruleop2").val(rulesSplit[1]);
+			$("#ruleop3").val(rulesSplit[2]);
+			$("#addRule").click();
+		}
 	}
 });
 function rulesObeyed(arr) {
