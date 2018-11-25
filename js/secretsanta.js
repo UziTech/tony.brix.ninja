@@ -4,18 +4,34 @@ var names = [];
 var emails = [];
 var ruleid = 0;
 var rules = [];
+var initialNames = {
+	"Tony": "tbrix13@gmail.com",
+	"Kaitlyn": "kaitlyn1469@gmail.com",
+	"Tyler": "tjdbrix@gmail.com",
+	"Kalyn": "kbotzet@gustavus.edu",
+	"Angela": "brixangela@gmail.com",
+	"Brian": "brixangela@gmail.com",
+	"Cassy": "theatredreams@gmail.com",
+	"Mom": "glbrix2002@gmail.com",
+	"Dad": "glbrix2002@gmail.com",
+};
+var initialRules = [
+	"0,0,1",
+	"1,0,0",
+	"2,0,3",
+	"3,0,2",
+	"4,0,5",
+	"5,0,4",
+	"7,0,8",
+	"8,0,7",
+];
 $(function () {
-	$("#name").keypress(function (e) {
+	$("#name, #email").keypress(function (e) {
 		if (e.which === 13) {
 			$("#addName").click();
 		}
 	});
-	$("#email").keypress(function (e) {
-		if (e.which === 13) {
-			$("#addName").click();
-		}
-	});
-	$("#rule").keypress(function (e) {
+	$("#ruleop1, #ruleop2, #ruleop3").keypress(function (e) {
 		if (e.which === 13) {
 			$("#addRule").click();
 		}
@@ -106,10 +122,25 @@ $(function () {
 			alert(list);
 		}
 	});
+
+	for (var name in initialNames) {
+		var email = initialNames[name];
+		$("#name").val(name);
+		$("#email").val(email);
+		$("#addName").click();
+	}
+
+	for (var rule of initialRules) {
+		var rulesSplit = rule.split(",");
+		$("#ruleop1").val(rulesSplit[0]);
+		$("#ruleop2").val(rulesSplit[1]);
+		$("#ruleop3").val(rulesSplit[2]);
+		$("#addRule").click();
+	}
 });
 function rulesObeyed(arr) {
 	for (var i = 0; i < rules.length; i++) {
-		var rule = rules[i].split(",");
+		var rule = rules[i].split(",").map(r => +r);
 		for (var j = 0; j < arr.length; j++) {
 			if (+arr[j] === +rule[0]) {
 				if (+rule[1] === 1) {
