@@ -111,24 +111,26 @@ function rulesObeyed(arr) {
 	for (var i = 0; i < rules.length; i++) {
 		var rule = rules[i].split(",");
 		for (var j = 0; j < arr.length; j++) {
-			if (arr[j] === rule[0]) {
-				if (rule[1] === 1) {
+			if (+arr[j] === +rule[0]) {
+				if (+rule[1] === 1) {
+					// must have
 					if (j + 1 === arr.length) {
-						if (arr[0] !== rule[2]) {
+						if (+arr[0] !== +rule[2]) {
 							return false;
 						}
 					} else {
-						if (arr[j + 1] !== rule[2]) {
+						if (+arr[j + 1] !== +rule[2]) {
 							return false;
 						}
 					}
 				} else {
+					// cannot have
 					if (j + 1 === arr.length) {
-						if (arr[0] === rule[2]) {
+						if (+arr[0] === +rule[2]) {
 							return false;
 						}
 					} else {
-						if (arr[j + 1] === rule[2]) {
+						if (+arr[j + 1] === +rule[2]) {
 							return false;
 						}
 					}
