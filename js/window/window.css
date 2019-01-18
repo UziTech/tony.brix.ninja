@@ -39,17 +39,17 @@
   min-height: 20px;
   cursor: move;
   background-color: #5B77AB;
-  /* IE10 */ 
+  /* IE10 */
   background-image: -ms-linear-gradient(top left, #102866 0%, #ABCCF5 100%);
-  /* Mozilla Firefox */ 
+  /* Mozilla Firefox */
   background-image: -moz-linear-gradient(top left, #102866 0%, #ABCCF5 100%);
-  /* Opera */ 
+  /* Opera */
   background-image: -o-linear-gradient(top left, #102866 0%, #ABCCF5 100%);
-  /* Webkit (Safari/Chrome 10) */ 
+  /* Webkit (Safari/Chrome 10) */
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #102866), color-stop(1, #ABCCF5));
-  /* Webkit (Chrome 11+) */ 
+  /* Webkit (Chrome 11+) */
   background-image: -webkit-linear-gradient(top left, #102866 0%, #ABCCF5 100%);
-  /* Proposed W3C Markup */ 
+  /* Proposed W3C Markup */
   background-image: linear-gradient(top left, #102866 0%, #ABCCF5 100%);
   /* IE 6-9 */
   -pie-background: linear-gradient(top left, #102866 0%, #ABCCF5 100%);
@@ -305,4 +305,17 @@
   top: 0px;
   left: 0px;
   z-index: 10000;
+}
+#bsod {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0100ab;
+  color: #fff;
+  font-size: 30px;
+  font-family: monospace;
+  padding: 30px;
+  box-sizing: border-box;
 }

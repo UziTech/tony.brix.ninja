@@ -53,7 +53,20 @@ todo:
 			$(this).attr("src", "js/window/images/start_button_clicked.png");
 		}).click(function (e) {
 			$(this).attr("src", "js/window/images/start_button.png");
-			throw ("open startmenu not implemented");
+			var $bsod = $(
+				"<div id='bsod'>" +
+				"<p>A problem has been detected and this page has been stopped to prevent damage to this computer.</p>" +
+				"<p>START_MENU_BUTTON_CLICKED</p>" +
+				"<p>If this is the first time you've seen this stop error screen, click anywhere to dismiss it. If this screen appears again, follow these steps:</p>" +
+				"<p>Stop clicking on the start menu button, learn more about Tony Brix, or open Mine Sweeper and see if you can beat your high scores.</p>" +
+				"<p>Technical Information:</p>" +
+				"<p>*** STOP: 0xc1i6k1n9 (0x0000000n, 0x000007h3, 0x000574r7, 0x00bu770n)</p>" +
+				"</div>"
+			);
+			$bsod.click(function () {
+				$(this).remove();
+			});
+			$("body").append($bsod);
 		}).mouseleave(function (e) {
 			$(this).attr("src", "js/window/images/start_button.png");
 		});
