@@ -58,7 +58,7 @@ todo:
 				"<p>A problem has been detected and this page has been stopped to prevent damage to this computer.</p>" +
 				"<p>START_MENU_BUTTON_CLICKED</p>" +
 				"<p>If this is the first time you've seen this stop error screen, click anywhere to dismiss it. If this screen appears again, follow these steps:</p>" +
-				"<p>Stop clicking on the start menu button, use the desktop icons to learn more about Tony Brix, or open Mine Sweeper and see if you can beat your high scores.</p>" +
+				"<p>Use the desktop icons to learn more about Tony Brix, or open Mine Sweeper and see if you can beat your high scores.</p>" +
 				"<p>Technical Information:</p>" +
 				"<p>*** STOP: 0xc116k1n9 (0x000007h3, 0x000574r7, 0x0000m3nu, 0x006u770n)</p>" +
 				"</div>"
