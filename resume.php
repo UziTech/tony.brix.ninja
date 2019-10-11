@@ -19,6 +19,10 @@ a {
 <div>Anthony Brix</div>
 <div><a href="mailto:tony@brix.ninja">Tony@Brix.ninja</a></div>
 <div><a href="tel:3202491820">(320) 249-1820</a></div>
+<br />
+<div><a href="https://Tony.Brix.ninja">https://Tony.Brix.ninja</a></div>
+<div><a href="https://GitHub.com/UziTech/">https://GitHub.com/UziTech/</a></div>
+<div><a href="https://www.LinkedIn.com/in/TonyBrix/">https://www.LinkedIn.com/in/TonyBrix/</a></div>
 
 <h2>Technical Skills</h2>
 
@@ -32,7 +36,7 @@ a {
 <div>AAS Computer Programmer</div>
 <div>Fall 2009, Spring 2010, Fall 2010 Dean’s List</div>
 </p>
-<h2>Experience</h2>
+<h2>Work Experience</h2>
 <p>
 <div>Viking Coca-Cola 06/14 – Present</div>
 <div>Title: Web/Database Developer</div>
@@ -60,18 +64,6 @@ a {
 <div>Extra Duties: Design and maintain website, add pictures, content, new pages, and update products.</div>
 </p>
 <p>
-<div>Luchiano’s Pizzeria 10/08 – 08/10</div>
-<div>Title: Driver</div>
-<div>Standard Duties: Deliver pizzas, wash dishes, clean.</div>
-<div>Extra Duties: Configure POS system, update menu when needed, maintain and repair computers, update software.</div>
-</p>
-<p>
-<div>Tops Plus 01/07 – 10/08</div>
-<div>Title: Laborer</div>
-<div>Standard Duties: Build and install countertops, sweep shop, clean showroom, fill products and samples.</div>
-<div>Extra Duties: Design and maintain website, create macros for Delta CAD, service and repair computers.</div>
-</p>
-<p>
 <div>Many Point Scout Camp 2003 – 2007 Summers</div>
 <div>Titles: Program Counselor, C.O.P.E Instructor, Tower Assistant, Sailing Director</div>
 <div>Standard Duties: Educate scouts in merit badges, provide safe environment to learn and grow, keep moral up in camps and activities.</div>
@@ -80,6 +72,22 @@ a {
 <div>North Wind Scout Camp 2005 – 2009 Winters</div>
 <div>Titles: Adventure Director, Adventure Assistant, Experience Assistant</div>
 <div>Standard Duties: Educate scouts on winter camping survival, provide safe environment to learn and grow, direct games and team building exercises.</div>
+</p>
+<h2>Work Experience</h2>
+<p>
+<div>Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.</div>
+</p>
+<p>
+<div>Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js</div>
+</p>
+<p>
+<div>Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.</div>
+</p>
+<p>
+<div>Git-Menu: Author. GUI interface for using git in Atom IDE</div>
+</p>
+<p>
+<div><a href="https://github.com/UziTech">And many more...</a></div>
 </p>
 </body>
 </html>

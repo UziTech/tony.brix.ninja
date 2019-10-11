@@ -88,6 +88,10 @@ $(function () {
 		"Tony@Brix.ninja\n" +
 		"(320) 249-1820\n" +
 		"\n" +
+		"https://Tony.Brix.ninja\n" +
+		"https://GitHub.com/UziTech/\n" +
+		"https://www.LinkedIn.com/in/TonyBrix/\n" +
+		"\n" +
 		"<span class='resume-header'>Technical Skills</span>\n" +
 		"\n" +
 		"Languages:  Assembly, ASP, ASP.NET, BF, C, C#, C++, CoffeeScript, ColdFusion, Dart, Flash, HTML, Java, JavaScript, JSP, JSX, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Rails, React, Regular Expressions, Ruby, Rust, SQL Server 2008, SQLite, TI Basic, TypeScript, VB6, VB.NET, VHDL, WML, XML\n" +
@@ -100,7 +104,7 @@ $(function () {
 		"AAS Computer Programmer\n" +
 		"Fall 2009, Spring 2010, Fall 2010 Dean’s List\n" +
 		"\n" +
-		"<span class='resume-header'>Experience</span>\n" +
+		"<span class='resume-header'>Work Experience</span>\n" +
 		"\n" +
 		"Viking Coca-Cola 06/14 – Present\n" +
 		"Title: Web/Database Developer\n" +
@@ -139,7 +143,20 @@ $(function () {
 		"\n" +
 		"North Wind Scout Camp 2005 – 2009 Winters\n" +
 		"Titles: Adventure Director, Adventure Assistant, Experience Assistant\n" +
-		"Standard Duties: Educate scouts on winter camping survival, provide safe environment to learn and grow, direct games and team building exercises.";
+		"Standard Duties: Educate scouts on winter camping survival, provide safe environment to learn and grow, direct games and team building exercises.\n" +
+		"\n" +
+		"<span class='resume-header'>Open Source Projects</span>\n" +
+		"\n" +
+		"Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.\n" +
+		"\n" +
+		"Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js\n" +
+		"\n" +
+		"Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.\n" +
+		"\n" +
+		"Git-Menu: Author. GUI interface for using git in Atom IDE\n" +
+		"\n" +
+		"And many more...";
+
 	$("#resumecontent").html($.pre(resume));
 	$("#aboutcontent").html($.pre("Type \"About\" to open the program\nor \"Help\" to diplay a list of commands\n\nC:\\Documents and Settings\\Tony Brix\\Desktop>")).window({
 		shortcutID: "about",
