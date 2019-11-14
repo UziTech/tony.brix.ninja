@@ -65,9 +65,9 @@ $(function () {
 		"|              /    |    |    \\     \\   |              |  /     /    \\     \\\n" +
 		" --------------      ----      ------    --------------   ------      ------\n" +
 		"\n" +
-		"When I was nine years old I found QBasic on my parent’s computer. It quickly\n" +
-		"became my favorite game. Ever since then I have been intrigued by computers\n" +
-		"and programming languages.\n" +
+		"When I was nine years old I found QBasic on my parent’s first computer. It\n" +
+		"quickly became my favorite game. I have been intrigued by computers and\n" +
+		"programming languages ever since.\n" +
 		"\n" +
 		"There are about 40 languages in which I have written at least one program. My\n" +
 		"favorite languages are Javascript, PHP and C#. I continue to learn more every\n" +
@@ -82,9 +82,9 @@ $(function () {
 		"I am a very easy going and open person who thinks logically about every\n" +
 		"decision. I consider myself a very lucky person to have found what I want to\n" +
 		"do for the rest of my life at a very early age. To answer every high school\n" +
-		"counselor’s question, if I had $1,000,000 I would write programs for anybody\n" +
-		"and everybody.\n";
-	var resume = "Anthony Brix\n" +
+		"counselor’s question, if I had $1,000,000 I would create applications that\n" +
+		"make people more efficient.\n";
+	var resume = "Tony Brix\n" +
 		"Tony@Brix.ninja\n" +
 		"(320) 249-1820\n" +
 		"\n" +
@@ -94,9 +94,25 @@ $(function () {
 		"\n" +
 		"<span class='resume-header'>Technical Skills</span>\n" +
 		"\n" +
-		"Languages:  Assembly, ASP, ASP.NET, BF, C, C#, C++, CoffeeScript, ColdFusion, Dart, Flash, HTML, Java, JavaScript, JSP, JSX, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Rails, React, Regular Expressions, Ruby, Rust, SQL Server 2008, SQLite, TI Basic, TypeScript, VB6, VB.NET, VHDL, WML, XML\n" +
+		"Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, jQuery, Regular Expressions, Bash, Batch, XML, JSON\n" +
 		"\n" +
-		"Operating Systems: Windows, Mac OS X, iPhone OS, Android OS, Ubuntu, Knoppix, Fedora\n" +
+		"Proficient Languages: PowerShell, TypeScript, D3, C#, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Pike, Ruby, VB.NET, VHDL, XSD, TI Basic, VB6, QBasic\n" +
+		"\n" +
+		"Operating Systems: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian\n" +
+		"\n" +
+		"<span class='resume-header'>Open Source Projects</span>\n" +
+		"\n" +
+		"Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.\n" +
+		"\n" +
+		"Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js\n" +
+		"\n" +
+		"Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.\n" +
+		"\n" +
+		"Git-Menu: Author. GUI interface for using git in Atom IDE\n" +
+		"\n" +
+		"terminus: Maintainer. Terminal for Atom IDE\n" +
+		"\n" +
+		"And many more...\n" +
 		"\n" +
 		"<span class='resume-header'>Education</span>\n" +
 		"\n" +
@@ -143,19 +159,7 @@ $(function () {
 		"\n" +
 		"North Wind Scout Camp 2005 – 2009 Winters\n" +
 		"Titles: Adventure Director, Adventure Assistant, Experience Assistant\n" +
-		"Standard Duties: Educate scouts on winter camping survival, provide safe environment to learn and grow, direct games and team building exercises.\n" +
-		"\n" +
-		"<span class='resume-header'>Open Source Projects</span>\n" +
-		"\n" +
-		"Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.\n" +
-		"\n" +
-		"Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js\n" +
-		"\n" +
-		"Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.\n" +
-		"\n" +
-		"Git-Menu: Author. GUI interface for using git in Atom IDE\n" +
-		"\n" +
-		"And many more...";
+		"Standard Duties: Educate scouts on winter camping survival, provide safe environment to learn and grow, direct games and team building exercises.";
 
 	$("#resumecontent").html($.pre(resume));
 	$("#aboutcontent").html($.pre("Type \"About\" to open the program\nor \"Help\" to diplay a list of commands\n\nC:\\Documents and Settings\\Tony Brix\\Desktop>")).window({

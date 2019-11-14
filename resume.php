@@ -16,7 +16,7 @@ a {
 </style>
 </head>
 <body>
-<div>Anthony Brix</div>
+<div>Tony Brix</div>
 <div><a href="mailto:tony@brix.ninja">Tony@Brix.ninja</a></div>
 <div><a href="tel:3202491820">(320) 249-1820</a></div>
 <br />
@@ -26,10 +26,31 @@ a {
 
 <h2>Technical Skills</h2>
 
-<p>Languages:  Assembly, ASP, ASP.NET, BF, C, C#, C++, CoffeeScript, ColdFusion, Dart, Flash, HTML, Java, JavaScript, JSP, JSX, MATLAB, Meteor, MySQL, Node, Objective C, Octave, Perl, PHP, Python, QBasic, Rails, React, Regular Expressions, Ruby, Rust, SQL Server 2008, SQLite, TI Basic, TypeScript, VB6, VB.NET, VHDL, WML, XML</p>
+<p>Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, jQuery, Regular Expressions, Bash, Batch, XML, JSON</p>
 
-<p>Operating Systems: Windows, Mac OS X, iPhone OS, Android OS, Ubuntu, Knoppix, Fedora</p>
+<p>Proficient Languages: PowerShell, TypeScript, D3, C#, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Pike, Ruby, VB.NET, VHDL, XSD, TI Basic, VB6, QBasic</p>
 
+<p>Operating Systems: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian</p>
+
+<h2>Work Experience</h2>
+<p>
+<div>Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.</div>
+</p>
+<p>
+<div>Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js</div>
+</p>
+<p>
+<div>Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.</div>
+</p>
+<p>
+<div>Git-Menu: Author. GUI interface for using git in Atom IDE</div>
+</p>
+<p>
+<div>terminus: Maintainer. Terminal for Atom IDE</div>
+</p>
+<p>
+<div><a href="https://github.com/UziTech">And many more...</a></div>
+</p>
 <h2>Education</h2>
 <p>
 <div>St. Cloud Technical College</div>
@@ -72,22 +93,6 @@ a {
 <div>North Wind Scout Camp 2005 – 2009 Winters</div>
 <div>Titles: Adventure Director, Adventure Assistant, Experience Assistant</div>
 <div>Standard Duties: Educate scouts on winter camping survival, provide safe environment to learn and grow, direct games and team building exercises.</div>
-</p>
-<h2>Work Experience</h2>
-<p>
-<div>Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.</div>
-</p>
-<p>
-<div>Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js</div>
-</p>
-<p>
-<div>Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.</div>
-</p>
-<p>
-<div>Git-Menu: Author. GUI interface for using git in Atom IDE</div>
-</p>
-<p>
-<div><a href="https://github.com/UziTech">And many more...</a></div>
 </p>
 </body>
 </html>
