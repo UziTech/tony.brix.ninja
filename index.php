@@ -242,7 +242,6 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div id="atompackages" data-href="https://atom.io/users/UziTech/packages" data-img="/images/atom.png" class="shortcut"><span class="title">Atom Packages</span></div>
 		<div id="freecodecamp" data-href="https://www.freecodecamp.org/uzitech" data-img="/images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
 		<div id="firstwebsite" data-href="https://uzitech.github.io/tonys-place/tony.html" data-img="/images/tonysplace.png" class="shortcut"><span class="title">My First Website</span></div>
-		<div id="skypebot" data-href="https://join.skype.com/bot/8316b189-fc92-4de3-b624-653d2eb5bc2d" data-img="/images/skypebot.png" class="shortcut"><span class="title">Skype Bot</span></div>
 		<div id="messengerbot" data-href="https://m.me/thetonybrix" data-img="/images/fmessengerbot.png" class="shortcut"><span class="title">Messenger Bot</span></div>
 		<div id="twitterbot" data-href="https://twitter.com/tonybrixai" data-img="/images/twitterbot.png" class="shortcut"><span class="title">Twitter Bot</span></div>
 		<div data-href="tel:3202491820" data-img="/images/phone.png" id="phone" class="mobile shortcut"></div>
