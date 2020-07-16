@@ -46,7 +46,7 @@ a {
 <div>Git-Menu: Author. GUI interface for using git in Atom IDE</div>
 </p>
 <p>
-<div>terminus: Maintainer. Terminal for Atom IDE</div>
+<div>x-terminal: Lead Maintainer. Terminal for Atom IDE</div>
 </p>
 <p>
 <div><a href="https://github.com/UziTech">And many more...</a></div>
@@ -64,14 +64,14 @@ a {
 <div>Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS3, and HTML5</div>
 </p>
 <p>
-<div>Jadou 05/13 - Present</div>
-<div>Title: Freelance Web Programmer</div>
-<div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3 and Html5, setup server for clients, setup and configure Drupal, create Drupal themes and modules.</div>
-</p>
-<p>
 <div>UziTech 08/03 – Present</div>
 <div>Title: Owner</div>
 <div>Standard Duties: Service and repair computers, install hardware and software, remove viruses, spyware, adware, recycle computers, order parts, maintain and design website, organize and inventory parts, develop applications for Windows in C# and Android in Java and XML.</div>
+</p>
+<p>
+<div>Jadou 05/13 - 06/14</div>
+<div>Title: Freelance Web Programmer</div>
+<div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3 and Html5, setup server for clients, setup and configure Drupal, create Drupal themes and modules.</div>
 </p>
 <p>
 <div>aSimpleDesign 05/11 - 08/13</div>

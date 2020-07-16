@@ -57,10 +57,10 @@ day and keep up with today’s advancing technologies.
 </p>
 <p>
 I started my own computer repair business in high school, mostly working for
-family members and friends. Also in high school I started freelance
-programming thru websites such as GetACoder.com and others. I have worked on
-many projects with many different kinds of people and have been able to work
-with every one of them successfully.
+family and friends. Also in high school I started freelance programming
+through websites such as GetACoder.com and others. I have worked on many
+projects with many different kinds of people and have been able to work with
+every one of them successfully.
 </p>
 <p>
 I am a very easy going and open person who thinks logically about every

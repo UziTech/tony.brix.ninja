@@ -74,10 +74,10 @@ $(function () {
 		"day and keep up with today’s advancing technologies.\n" +
 		"\n" +
 		"I started my own computer repair business in high school, mostly working for\n" +
-		"family members and friends. Also in high school I started freelance\n" +
-		"programming thru websites such as GetACoder.com and others. I have worked on\n" +
-		"many projects with many different kinds of people and have been able to work\n" +
-		"with every one of them successfully.\n" +
+		"family and friends. Also in high school I started freelance programming\n" +
+		"through websites such as GetACoder.com and others. I have worked on many\n" +
+		"projects with many different kinds of people and have been able to work with\n" +
+		"every one of them successfully.\n" +
 		"\n" +
 		"I am a very easy going and open person who thinks logically about every\n" +
 		"decision. I consider myself a very lucky person to have found what I want to\n" +
@@ -110,7 +110,7 @@ $(function () {
 		"\n" +
 		"Git-Menu: Author. GUI interface for using git in Atom IDE\n" +
 		"\n" +
-		"terminus: Maintainer. Terminal for Atom IDE\n" +
+		"x-terminal: Lead Maintainer. Terminal for Atom IDE\n" +
 		"\n" +
 		"And many more...\n" +
 		"\n" +
@@ -126,13 +126,13 @@ $(function () {
 		"Title: Web/Database Developer\n" +
 		"Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS3, and HTML5\n" +
 		"\n" +
-		"Jadou 05/13 - Present\n" +
-		"Title: Freelance Programmer\n" +
-		"Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3  and Html5, setup server for clients, setup and configure Drupal, create Drupal themes and modules.\n" +
-		"\n" +
 		"UziTech 08/03 – Present\n" +
 		"Title: Owner\n" +
 		"Standard Duties: Service and repair computers, install hardware and software, remove viruses, spyware, adware, recycle computers, order parts, maintain and design website, organize and inventory parts, develop applications for Windows in C# and Android in Java and XML.\n" +
+		"\n" +
+		"Jadou 05/13 - 06/14\n" +
+		"Title: Freelance Programmer\n" +
+		"Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3  and Html5, setup server for clients, setup and configure Drupal, create Drupal themes and modules.\n" +
 		"\n" +
 		"aSimpleDesign 05/11 - 08/13\n" +
 		"Title: Freelance Programmer\n" +
