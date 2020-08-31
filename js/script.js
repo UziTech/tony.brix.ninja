@@ -82,8 +82,8 @@ $(function () {
 		"I am a very easy going and open person who thinks logically about every\n" +
 		"decision. I consider myself a very lucky person to have found what I want to\n" +
 		"do for the rest of my life at a very early age. To answer every high school\n" +
-		"counselor’s question, if I had $1,000,000 I would create applications that\n" +
-		"make people more efficient.\n";
+		"counselor’s question, when I grow up I want to create applications that make\n" +
+		"people more efficient.\n";
 	var resume = "Tony Brix\n" +
 		"Tony@Brix.ninja\n" +
 		"(320) 249-1820\n" +
