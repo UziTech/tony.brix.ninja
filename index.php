@@ -226,7 +226,7 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<div data-href="https://facebook.com/tbrix13" data-img="/images/facebook.png" id="facebook" class="shortcut"><span class="title">Facebook</span></div>
 		<div data-href="https://m.me/tbrix13" data-img="/images/fmessenger.png" id="fmessenger" class="shortcut"><span class="title">Facebook Messenger</span></div>
 		<div data-href="https://twitter.com/tonybrix" data-img="/images/twitter.png" id="twitter" class="shortcut"><span class="title">Twitter</span></div>
-		<div data-href="https://plus.google.com/+TonyBrix" data-img="/images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div>
+		<!-- <div data-href="https://plus.google.com/+TonyBrix" data-img="/images/googleplus.png" id="googleplus" class="shortcut"><span class="title">Google +</span></div> -->
 		<div data-href="https://www.linkedin.com/in/tonybrix/" data-img="/images/linkedin.png" id="linkedin" class="shortcut"><span class="title">LinkedIn</span></div>
 		<div data-img="/images/minesweeper.png" id="minesweeper" class="desktop shortcut"><span class="title">Mine Sweeper</span></div>
 		<div id="minesweepercontent"><canvas id="minesweepercanvas" tabindex="0">Your browser is not compatible.Please update your browser.</canvas></div>
@@ -236,14 +236,14 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 		<!-- <div data-href="https://uzitech.com/pws" id="pws" data-img="/images/pws.png" class="desktop shortcut"><span class="title">Password Keys</span></div> -->
 		<!-- <div id="pwscontent" style="background-color: #fff;overflow: hidden !important"><iframe style="width: 100%;height: 9999999px;max-height: 100%;" src="//uzitech.com/pws"></iframe></div> -->
 		<!-- <div id="mobilepws" data-href="https://uzitech.com/pws" data-img="/images/pws.png" class="mobile shortcut"><span class="title">Password Keys</span></div> -->
-		<div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="/images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div>
+		<!-- <div id="googleplay" data-href="https://play.google.com/store/apps/developer?id=UziTech" data-img="/images/googleplay.png" class="shortcut"><span class="title">Google Play</span></div> -->
 		<div id="github" data-href="https://github.com/uzitech" data-img="/images/github.png" class="shortcut"><span class="title">GitHub</span></div>
 		<div id="gists" data-href="https://gist.github.com/uzitech" data-img="/images/gist.png" class="shortcut"><span class="title">Gists</span></div>
 		<div id="atompackages" data-href="https://atom.io/users/UziTech/packages" data-img="/images/atom.png" class="shortcut"><span class="title">Atom Packages</span></div>
 		<div id="freecodecamp" data-href="https://www.freecodecamp.org/uzitech" data-img="/images/freecodecamp.png" class="shortcut"><span class="title">Free Code Camp</span></div>
 		<div id="firstwebsite" data-href="https://uzitech.github.io/tonys-place/tony.html" data-img="/images/tonysplace.png" class="shortcut"><span class="title">My First Website</span></div>
-		<div id="messengerbot" data-href="https://m.me/thetonybrix" data-img="/images/fmessengerbot.png" class="shortcut"><span class="title">Messenger Bot</span></div>
-		<div id="twitterbot" data-href="https://twitter.com/tonybrixai" data-img="/images/twitterbot.png" class="shortcut"><span class="title">Twitter Bot</span></div>
+		<!-- <div id="messengerbot" data-href="https://m.me/thetonybrix" data-img="/images/fmessengerbot.png" class="shortcut"><span class="title">Messenger Bot</span></div> -->
+		<!-- <div id="twitterbot" data-href="https://twitter.com/tonybrixai" data-img="/images/twitterbot.png" class="shortcut"><span class="title">Twitter Bot</span></div> -->
 		<div data-href="tel:3202491820" data-img="/images/phone.png" id="phone" class="mobile shortcut"></div>
 		<div data-href="sms:3202491820" data-img="/images/sms.png" id="sms" class="mobile shortcut"></div>
 		<div data-href="mailto:Tony@Brix.ninja" data-img="/images/gmail.png" id="gmail" class="mobile shortcut"></div>
