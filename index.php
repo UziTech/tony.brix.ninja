@@ -69,6 +69,7 @@ $cspHashArray = [
 		// allow data: images
 		"data:",
 	],
+	"font-src" => ["data:"],
 	"object-src" => ["'none'"],
 ];
 
@@ -115,7 +116,7 @@ ini_set('session.cookie_secure', 1);
 	<link rel="apple-touch-icon" href="/images/tony.png" />
 	<link rel="stylesheet" href="/css/defaults.css "/>
 	<link rel="stylesheet" href="/js/window/window.css" />
-	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="/css/style.css?v1" />
 	<!--[if IE 7]>
 	<style type="text/css">
 		.wdw-window>tbody>.titlebarmiddle>.center{
@@ -209,7 +210,16 @@ mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
 <body>
 	<div id="portrait"></div>
 	<div id="qrcode">
-		<p id="contact-info">Tony Brix<br />(320) 249-1820<br />Tony@Brix.ninja</p>
+		<p id="contact-info">
+			Tony Brix
+			<br />
+			(320) 249-1820
+			<br />
+			Tony@Brix.ninja
+			<br />
+			<br />
+			<iframe id="sponsor" src="https://github.com/sponsors/UziTech/button" title="Sponsor Me" height="35" width="116" style="border: 0;" sandbox="allow-top-navigation"></iframe>
+		</p>
 	</div>
 	<div id="icons">
 		<div data-img="/images/about.png" id="about" class="desktop shortcut"><span class="title">About</span></div>

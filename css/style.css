@@ -155,7 +155,6 @@ body{
   position: absolute;
   top: 15px;
   right: 15px;
-  z-index: -1;
   text-align: center;
 	background: url('/images/qrcode.png') no-repeat top center;
 	width: 145px;
@@ -163,6 +162,7 @@ body{
 }
 #qrcode p {
   color: white;
+  cursor: default;
   font-weight: 700;
   margin: 0;
 }
