@@ -1,0 +1,24 @@
+name: "Deploy"
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Deploy:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Deploy 🚀
+        uses: google-github-actions/deploy-appengine@main
+        with:
+          credentials: ${{ secrets.GCP_SA_KEY }}
+
+  Skip:
+    if: contains(github.event.head_commit.message, '[skip ci]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip CI 🚫
+        run: echo skip ci
