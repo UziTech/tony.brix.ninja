@@ -20,9 +20,7 @@ $isLocalhost = ($_SERVER["SERVER_NAME"] === "localhost");
 
 $scripts = [
 	"modernizr",
-	"hotjar",
 	"google analytics",
-	"mixpanel",
 	"js/jquery.1.7.2.min.js",
 	"js/window/jquery.window.js",
 	"js/jquery.canvas.js",
@@ -180,31 +178,12 @@ ini_set('session.cookie_secure', 1);
 	</style>
 	<![endif]-->
 	<script src="/js/modernizr.custom.43220.js" type="text/javascript" nonce="<?= $nonces["modernizr"] ?>"></script>
-<!-- Hotjar Tracking Code for tony.brix.ninja -->
-<script nonce="<?= $nonces["hotjar"] ?>">
-		(function(h,o,t,j,a,r){
-				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments);};
-				h._hjSettings={hjid:56766,hjsv:5};
-				a=o.getElementsByTagName('head')[0];
-				r=o.createElement('script');r.async=1;
-				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-				a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<!--<![endif]-->
-<script nonce="<?= $nonces["google analytics"] ?>">
-	window._gaq = [['_setAccount','UA-33500524-1'],['_trackPageview'],['_trackPageLoadTime']];
-	Modernizr.load({
-		load: '//www.google-analytics.com/ga.js'
-	});
-</script>
-
-<!-- start Mixpanel -->
-<script nonce="<?= $nonces["mixpanel"] ?>">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
-0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
-mixpanel.init("ec2a03d0a0d066d969951d2d2ecffde3");</script>
-<!-- end Mixpanel -->
+	<script nonce="<?= $nonces["google analytics"] ?>">
+		window._gaq = [['_setAccount','UA-33500524-1'],['_trackPageview'],['_trackPageLoadTime']];
+		Modernizr.load({
+			load: '//www.google-analytics.com/ga.js'
+		});
+	</script>
 </head>
 
 <body>
