@@ -2,6 +2,8 @@
 
 // I'm trying to use the best security preactices here, mainly as a reference for other projects
 
+// test again
+
 // CSP
 function cspHashes($hashArray) {
 	if (count($hashArray) === 0) {
