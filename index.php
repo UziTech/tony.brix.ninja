@@ -184,7 +184,6 @@ ini_set('session.cookie_secure', 1);
 			load: '//www.google-analytics.com/ga.js'
 		});
 	</script>
-	<!-- test comment -->
 </head>
 
 <body>
