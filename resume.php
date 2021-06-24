@@ -32,7 +32,7 @@ a {
 
 <p>Operating Systems: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian</p>
 
-<h2>Work Experience</h2>
+<h2>Open Source Experience</h2>
 <p>
 <div>Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.</div>
 </p>
