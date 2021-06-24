@@ -94,7 +94,7 @@ $(function () {
 		"\n" +
 		"<span class='resume-header'>Technical Skills</span>\n" +
 		"\n" +
-		"Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, jQuery, Regular Expressions, Bash, Batch, XML, JSON\n" +
+		"Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, React, Regular Expressions, Bash, Batch, XML, JSON\n" +
 		"\n" +
 		"Proficient Languages: PowerShell, TypeScript, D3, C#, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Pike, Ruby, VB.NET, VHDL, XSD, TI Basic, VB6, QBasic\n" +
 		"\n" +
@@ -104,13 +104,13 @@ $(function () {
 		"\n" +
 		"Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.\n" +
 		"\n" +
-		"Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js\n" +
+		"Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js.\n" +
 		"\n" +
 		"Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.\n" +
 		"\n" +
-		"Git-Menu: Author. GUI interface for using git in Atom IDE\n" +
+		"Git-Menu: Author. GUI interface for using git in Atom IDE.\n" +
 		"\n" +
-		"x-terminal: Lead Maintainer. Terminal for Atom IDE\n" +
+		"x-terminal: Lead Maintainer. Terminal for Atom IDE.\n" +
 		"\n" +
 		"And many more...\n" +
 		"\n" +
@@ -122,21 +122,25 @@ $(function () {
 		"\n" +
 		"<span class='resume-header'>Work Experience</span>\n" +
 		"\n" +
-		"Viking Coca-Cola 06/14 – Present\n" +
-		"Title: Web/Database Developer\n" +
-		"Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS3, and HTML5\n" +
+		"eNotaryLog 06/21 – Present\n" +
+		"Title: Senior Software Engineer\n" +
+		"Standard Duties: Work with a team of software engineers to develop and maintain web applications for online signatures and notary services in Node and React.\n" +
 		"\n" +
 		"UziTech 08/03 – Present\n" +
 		"Title: Owner\n" +
 		"Standard Duties: Service and repair computers, install hardware and software, remove viruses, spyware, adware, recycle computers, order parts, maintain and design website, organize and inventory parts, develop applications for Windows in C# and Android in Java and XML.\n" +
 		"\n" +
+		"Viking Coca-Cola 06/14 – 06/21\n" +
+		"Title: Web/Database Developer\n" +
+		"Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS, and HTML.\n" +
+		"\n" +
 		"Jadou 05/13 - 06/14\n" +
 		"Title: Freelance Programmer\n" +
-		"Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3  and Html5, setup server for clients, setup and configure Drupal, create Drupal themes and modules.\n" +
+		"Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS  and HTML, setup server for clients, setup and configure Drupal, create Drupal themes and modules.\n" +
 		"\n" +
 		"aSimpleDesign 05/11 - 08/13\n" +
 		"Title: Freelance Programmer\n" +
-		"Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3  and Html5, setup servers for clients, setup Joomla, Drupal, Concrete5, and WordPress sites.\n" +
+		"Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS  and HTML, setup servers for clients, setup Joomla, Drupal, Concrete5, and WordPress sites.\n" +
 		"\n" +
 		"Minnesota Computer Systems 02/10 – 06/14\n" +
 		"Title: IT Director\n" +
