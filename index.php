@@ -199,7 +199,7 @@ ini_set('session.cookie_secure', 1);
 			Tony@Brix.ninja
 			<br />
 			<br />
-			<iframe id="sponsor" src="https://github.com/sponsors/UziTech/button" title="Sponsor Me" height="35" width="116" style="border: 0;" sandbox="allow-top-navigation"></iframe>
+			<iframe id="sponsor" src="https://github.com/sponsors/UziTech/button" title="Sponsor Me" height="32" width="116" style="border: 0; border-radius: 6px;" sandbox="allow-top-navigation"></iframe>
 		</p>
 	</div>
 	<div id="icons">
