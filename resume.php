@@ -32,21 +32,21 @@ a {
 
 <p>Operating Systems: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian</p>
 
-<h2>Open Source Experience</h2>
+<h2>Open Source Projects</h2>
 <p>
 <div>Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.</div>
 </p>
 <p>
-<div>Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js</div>
+<div>Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js.</div>
 </p>
 <p>
 <div>Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.</div>
 </p>
 <p>
-<div>Git-Menu: Author. GUI interface for using git in Atom IDE</div>
+<div>Git-Menu: Author. GUI interface for using git in Atom IDE.</div>
 </p>
 <p>
-<div>x-terminal: Lead Maintainer. Terminal for Atom IDE</div>
+<div>x-terminal: Lead Maintainer. Terminal for Atom IDE.</div>
 </p>
 <p>
 <div><a href="https://github.com/UziTech">And many more...</a></div>
@@ -61,7 +61,7 @@ a {
 <p>
 <div>eNotaryLog 06/21 – Present</div>
 <div>Title: Senior Software Engineer</div>
-<div>Standard Duties: Work with a team of software engineers to develop and maintain web applications for online signatures and notary services in Node and React</div>
+<div>Standard Duties: Work with a team of software engineers to develop and maintain web applications for online signatures and notary services in Node and React.</div>
 </p>
 <p>
 <div>UziTech 08/03 – Present</div>
@@ -71,7 +71,7 @@ a {
 <p>
 <div>Viking Coca-Cola 06/14 – 06/21</div>
 <div>Title: Web/Database Developer</div>
-<div>Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS, and HTML</div>
+<div>Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS, and HTML.</div>
 </p>
 <p>
 <div>Jadou 05/13 - 06/14</div>
