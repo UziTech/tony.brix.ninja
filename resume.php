@@ -26,7 +26,7 @@ a {
 
 <h2>Technical Skills</h2>
 
-<p>Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, jQuery, Regular Expressions, Bash, Batch, XML, JSON</p>
+<p>Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, React, Regular Expressions, Bash, Batch, XML, JSON</p>
 
 <p>Proficient Languages: PowerShell, TypeScript, D3, C#, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Pike, Ruby, VB.NET, VHDL, XSD, TI Basic, VB6, QBasic</p>
 
@@ -59,9 +59,9 @@ a {
 </p>
 <h2>Work Experience</h2>
 <p>
-<div>Viking Coca-Cola 06/14 – Present</div>
-<div>Title: Web/Database Developer</div>
-<div>Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS3, and HTML5</div>
+<div>eNotaryLog 06/21 – Present</div>
+<div>Title: Senior Software Engineer</div>
+<div>Standard Duties: Work with a team of software engineers to develop and maintain web applications for online signatures and notary services in Node and React</div>
 </p>
 <p>
 <div>UziTech 08/03 – Present</div>
@@ -69,14 +69,19 @@ a {
 <div>Standard Duties: Service and repair computers, install hardware and software, remove viruses, spyware, adware, recycle computers, order parts, maintain and design website, organize and inventory parts, develop applications for Windows in C# and Android in Java and XML.</div>
 </p>
 <p>
+<div>Viking Coca-Cola 06/14 – 06/21</div>
+<div>Title: Web/Database Developer</div>
+<div>Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS, and HTML</div>
+</p>
+<p>
 <div>Jadou 05/13 - 06/14</div>
 <div>Title: Freelance Web Programmer</div>
-<div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3 and Html5, setup server for clients, setup and configure Drupal, create Drupal themes and modules.</div>
+<div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS and HTML, setup server for clients, setup and configure Drupal, create Drupal themes and modules.</div>
 </p>
 <p>
 <div>aSimpleDesign 05/11 - 08/13</div>
 <div>Title: Freelance Web Programmer</div>
-<div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS3  and Html5, setup servers for clients, setup Joomla, Drupal, Concrete5, and WordPress sites.</div>
+<div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS  and HTML, setup servers for clients, setup Joomla, Drupal, Concrete5, and WordPress sites.</div>
 </p>
 <p>
 <div>Minnesota Computer Systems 02/10 – 06/14</div>
