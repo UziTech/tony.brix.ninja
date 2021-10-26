@@ -94,15 +94,21 @@ $(function () {
 		"\n" +
 		"<span class='resume-header'>Technical Skills</span>\n" +
 		"\n" +
-		"Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, React, Regular Expressions, Bash, Batch, XML, JSON\n" +
+		"Expert Languages: Node.js, PHP, C#, HTML, CSS, SQL, JavaScript, TypeScript, jQuery, RegExp, Bash, Batch, XML, JSON\n" +
 		"\n" +
-		"Proficient Languages: PowerShell, TypeScript, D3, C#, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Pike, Ruby, VB.NET, VHDL, XSD, TI Basic, VB6, QBasic\n" +
+		"Proficient Languages: PowerShell, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Ruby\n" +
 		"\n" +
-		"Operating Systems: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian\n" +
+		"Frameworks: React, Concrete5, Meteor, Express, Angular, Polymer, Svelte, Vue, Drupal, WordPress, Joomla, Laravel, Rails\n" +
+		"\n" +
+		"Operating Systems: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian, Pop!_OS\n" +
+		"\n" +
+		"Cloud Applications: Docker, Helm, Kubernetes, App Engine, Kaniko, Terraform\n" +
 		"\n" +
 		"<span class='resume-header'>Open Source Projects</span>\n" +
 		"\n" +
 		"Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.\n" +
+		"\n" +
+		"Semantic Release: Maintainer. Fully automated version management and package publishing.\n" +
 		"\n" +
 		"Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js.\n" +
 		"\n" +
@@ -116,15 +122,18 @@ $(function () {
 		"\n" +
 		"<span class='resume-header'>Education</span>\n" +
 		"\n" +
+		"St. Cloud State University\n" +
+		"Computer Engineering\n" +
+		"\n" +
 		"St. Cloud Technical College\n" +
-		"AAS Computer Programmer\n" +
+		"Computer Programming\n" +
 		"Fall 2009, Spring 2010, Fall 2010 Dean’s List\n" +
 		"\n" +
 		"<span class='resume-header'>Work Experience</span>\n" +
 		"\n" +
 		"eNotaryLog 06/21 – Present\n" +
-		"Title: Senior Software Engineer\n" +
-		"Standard Duties: Work with a team of software engineers to develop and maintain web applications for online signatures and notary services in Node and React.\n" +
+		"Title: Senior DevOps Engineer\n" +
+		"Standard Duties: Develop and maintain continuous integration and continuous delivery pipelines for all microservices using Node.js, nx monorepo framework, docker, helm, and Kubernetes on Google Cloud Platform.\n" +
 		"\n" +
 		"UziTech 08/03 – Present\n" +
 		"Title: Owner\n" +

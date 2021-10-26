@@ -26,77 +26,88 @@ a {
 
 <h2>Technical Skills</h2>
 
-<p>Expert Languages: NodeJS, PHP, HTML, CSS, SQL, JavaScript, React, Regular Expressions, Bash, Batch, XML, JSON</p>
+<p><b>Expert Languages</b>: Node.js, PHP, C#, HTML, CSS, SQL, JavaScript, TypeScript, jQuery, RegExp, Bash, Batch, XML, JSON</p>
 
-<p>Proficient Languages: PowerShell, TypeScript, D3, C#, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Pike, Ruby, VB.NET, VHDL, XSD, TI Basic, VB6, QBasic</p>
+<p><b>Proficient Languages</b>: PowerShell, ASP.net, Java, Swift, Python, R, Dart, Rust, F#, Go, C++, MATLAB, Perl, Ruby</p>
 
-<p>Operating Systems: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian</p>
+<p><b>Frameworks</b>: React, Concrete5, Meteor, Express, Angular, Polymer, Svelte, Vue, Drupal, WordPress, Joomla, Laravel, Rails</p>
+
+<p><b>Operating Systems</b>: Windows, Android, MacOS, iOS, Ubuntu, Knoppix, Fedora, CentOS, Debian, Pop!_OS</p>
+
+<p><b>Cloud Applications</b>: Docker, Helm, Kubernetes, App Engine, Kaniko, Terraform</p>
 
 <h2>Open Source Projects</h2>
 <p>
-<div>Marked.js: Lead Maintainer. Javascript library that converts Markdown to HTML.</div>
+<div><b>Marked.js</b>: Lead Maintainer. Javascript library that converts Markdown to HTML.</div>
 </p>
 <p>
-<div>Jasmine: Contributor. Simple JavaScript testing framework for browsers and node.js.</div>
+<div><b>Semantic Release</b>: Maintainer. Fully automated version management and package publishing.</div>
 </p>
 <p>
-<div>Node.js: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.</div>
+<div><b>Jasmine</b>: Contributor. Simple JavaScript testing framework for browsers and node.js.</div>
 </p>
 <p>
-<div>Git-Menu: Author. GUI interface for using git in Atom IDE.</div>
+<div><b>Node.js</b>: Contributor. JavaScript runtime built on Chrome's V8 JavaScript engine.</div>
 </p>
 <p>
-<div>x-terminal: Lead Maintainer. Terminal for Atom IDE.</div>
+<div><b>Git Menu</b>: Author. GUI interface for using git in Atom IDE.</div>
+</p>
+<p>
+<div><b>x-terminal</b>: Lead Maintainer. Terminal for Atom IDE.</div>
 </p>
 <p>
 <div><a href="https://github.com/UziTech">And many more...</a></div>
 </p>
 <h2>Education</h2>
 <p>
+<div>St. Cloud State University</div>
+<div><b>Computer Engineering</b></div>
+</p>
+<p>
 <div>St. Cloud Technical College</div>
-<div>AAS Computer Programmer</div>
+<div><b>Computer Programming</b></div>
 <div>Fall 2009, Spring 2010, Fall 2010 Dean’s List</div>
 </p>
 <h2>Work Experience</h2>
 <p>
 <div>eNotaryLog 06/21 – Present</div>
-<div>Title: Senior Software Engineer</div>
-<div>Standard Duties: Work with a team of software engineers to develop and maintain web applications for online signatures and notary services in Node and React.</div>
+<div>Title: <b>Senior DevOps Engineer</b></div>
+<div>Standard Duties: Develop and maintain continuous integration and continuous delivery pipelines for all microservices using Node.js, nx monorepo framework, docker, helm, and Kubernetes on Google Cloud Platform.</div>
 </p>
 <p>
 <div>UziTech 08/03 – Present</div>
-<div>Title: Owner</div>
+<div>Title: <b>Owner, Freelance Software Developer</b></div>
 <div>Standard Duties: Service and repair computers, install hardware and software, remove viruses, spyware, adware, recycle computers, order parts, maintain and design website, organize and inventory parts, develop applications for Windows in C# and Android in Java and XML.</div>
 </p>
 <p>
 <div>Viking Coca-Cola 06/14 – 06/21</div>
-<div>Title: Web/Database Developer</div>
+<div>Title: <b>Web/Database Developer</b></div>
 <div>Standard Duties: Develop and maintain websites and internal applications using PHP, MySQL, SQL Server, Java, C#, Javascript, CSS, and HTML.</div>
 </p>
 <p>
 <div>Jadou 05/13 - 06/14</div>
-<div>Title: Freelance Web Programmer</div>
+<div>Title: <b>Software Engineer</b></div>
 <div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS and HTML, setup server for clients, setup and configure Drupal, create Drupal themes and modules.</div>
 </p>
 <p>
 <div>aSimpleDesign 05/11 - 08/13</div>
-<div>Title: Freelance Web Programmer</div>
+<div>Title: <b>Software Engineer</b></div>
 <div>Standard Duties: Program web pages in PHP, MySQL, JavaScript, CSS  and HTML, setup servers for clients, setup Joomla, Drupal, Concrete5, and WordPress sites.</div>
 </p>
 <p>
 <div>Minnesota Computer Systems 02/10 – 06/14</div>
-<div>Title: IT Director</div>
+<div>Title: <b>IT Director</b></div>
 <div>Standard Duties: Answer calls, setup appointments with customers, service and repair copiers, install hardware and software.</div>
 <div>Extra Duties: Design and maintain website, add pictures, content, new pages, and update products.</div>
 </p>
 <p>
 <div>Many Point Scout Camp 2003 – 2007 Summers</div>
-<div>Titles: Program Counselor, C.O.P.E Instructor, Tower Assistant, Sailing Director</div>
+<div>Titles: <b>Program Counselor, C.O.P.E Instructor, Tower Assistant, Sailing Director</b></div>
 <div>Standard Duties: Educate scouts in merit badges, provide safe environment to learn and grow, keep moral up in camps and activities.</div>
 </p>
 <p>
 <div>North Wind Scout Camp 2005 – 2009 Winters</div>
-<div>Titles: Adventure Director, Adventure Assistant, Experience Assistant</div>
+<div>Titles: <b>Adventure Director, Adventure Assistant, Experience Assistant</b></div>
 <div>Standard Duties: Educate scouts on winter camping survival, provide safe environment to learn and grow, direct games and team building exercises.</div>
 </p>
 </body>
