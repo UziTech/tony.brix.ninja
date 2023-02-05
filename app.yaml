@@ -1,6 +1,5 @@
 runtime: php81
 api_version: 1
-threadsafe: yes
 
 default_expiration: "30d"
 
