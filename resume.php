@@ -70,7 +70,12 @@ a {
 </p>
 <h2>Work Experience</h2>
 <p>
-<div>eNotaryLog 06/21 – Present</div>
+<div>Google 02/22 – Present</div>
+<div>Title: <b>Software Engineer</b></div>
+<div>Teams: Workspace User Lifecycle Optimization.</div>
+</p>
+<p>
+<div>eNotaryLog 06/21 – 02/22</div>
 <div>Title: <b>Senior DevOps Engineer</b></div>
 <div>Standard Duties: Develop and maintain continuous integration and continuous delivery pipelines for all microservices using Node.js, nx monorepo framework, docker, helm, and Kubernetes on Google Cloud Platform.</div>
 </p>

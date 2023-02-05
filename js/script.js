@@ -131,7 +131,11 @@ $(function () {
 		"\n" +
 		"<span class='resume-header'>Work Experience</span>\n" +
 		"\n" +
-		"eNotaryLog 06/21 – Present\n" +
+		"Google 02/22 – Present\n" +
+		"Title: Software Engineer\n" +
+		"Teams: Workspace User Lifecycle Optimization.\n" +
+		"\n" +
+		"eNotaryLog 06/21 – 02/22\n" +
 		"Title: Senior DevOps Engineer\n" +
 		"Standard Duties: Develop and maintain continuous integration and continuous delivery pipelines for all microservices using Node.js, nx monorepo framework, docker, helm, and Kubernetes on Google Cloud Platform.\n" +
 		"\n" +
