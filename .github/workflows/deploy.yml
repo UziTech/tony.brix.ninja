@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Deploy 🚀
-        uses: google-github-actions/deploy-appengine@main
+        uses: google-github-actions/deploy-appengine@v1
         with:
           credentials: ${{ secrets.GCP_SA_KEY }}
 
