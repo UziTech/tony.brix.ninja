@@ -1,5 +1,4 @@
 runtime: php81
-api_version: 1
 
 default_expiration: "30d"
 
