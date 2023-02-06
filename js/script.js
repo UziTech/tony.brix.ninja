@@ -840,7 +840,11 @@ function emailSend() {
 		} else {
 			alert(data.error);
 		}
-	}, "json");
+	}, "json").error(function (data) {
+		if (data && data.error) {
+			alert(data.error);
+		}
+	});
 }
 
 function iconJump(elem) {
