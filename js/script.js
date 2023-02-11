@@ -832,19 +832,9 @@ function emailSend() {
 		return;
 	}
 	$("#emailcontent .overlay").css({ width: $("#emailcontent").width() + "px", height: $("#emailcontent").height() + "px", display: "block" });
-	$.post("sendemail.php", { from: from, subject: subject, body: body }, function (data) {
-		$("#emailcontent .overlay").css({ display: "none" });
-		if (data.success) {
-			alert("Email sent successfully");
-			$("#emailcontent").window("close");
-		} else {
-			alert(data.error);
-		}
-	}, "json").error(function (data) {
-		if (data && data.error) {
-			alert(data.error);
-		}
-	});
+	window.open("mailto:tony@brix.ninja?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body));
+	$("#emailcontent .overlay").css({ display: "none" });
+	$("#emailcontent").window("close");
 }
 
 function iconJump(elem) {
