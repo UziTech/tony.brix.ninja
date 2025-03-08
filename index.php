@@ -24,10 +24,6 @@ switch (@parse_url($_SERVER['REQUEST_URI'])['path']) {
   case '/termsofuse.php':
       require 'termsofuse.php';
       break;
-  case '/sendemail':
-  case '/sendemail.php':
-      require 'sendemail.php';
-      break;
   case '/randompicture':
   case '/randompicture.php':
       require 'randompicture.php';

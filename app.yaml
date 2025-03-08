@@ -1,4 +1,4 @@
-runtime: php81
+runtime: php83
 
 default_expiration: "30d"
 
@@ -24,7 +24,7 @@ handlers:
 - url: /images
   static_dir: images
   secure: always
-  
+
 - url: .*
   script: auto
   secure: always
