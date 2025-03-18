@@ -149,7 +149,6 @@ body{
   -moz-border-radius: 15px;
   -o-border-radius: 15px;
   border-radius: 15px;
-  behavior: url(/css/PIE.htc);
 }
 #qrcode {
   position: absolute;
